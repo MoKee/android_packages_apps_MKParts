@@ -45,8 +45,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
 
-    private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
-    private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
+    private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 2;
+
     private static final int PULLDOWN_DIR_NONE = 0;
     private static final int PULLDOWN_DIR_RIGHT = 1;
     private static final int PULLDOWN_DIR_LEFT = 2;
@@ -72,14 +72,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mStatusBarClockCategory =
                 (PreferenceCategory) getPreferenceScreen().findPreference(CATEGORY_CLOCK);
 
-/*
         mStatusBarBatteryShowPercent =
                 (MKSystemSettingListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
         mStatusBarBattery =
                 (MKSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBattery.setOnPreferenceChangeListener(this);
         enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(2));
-*/
 
         mQuickPulldown =
                 (MKSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
@@ -128,20 +126,23 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         int value = Integer.parseInt((String) newValue);
-        if (preference == mQuickPulldown) {
-            updateQuickPulldownSummary(value);
-/*
-        } else if (preference == mStatusBarBattery) {
-            enableStatusBarBatteryDependents(value);
-*/
+        String key = preference.getKey();
+        switch (key) {
+            case STATUS_BAR_QUICK_QS_PULLDOWN:
+                updateQuickPulldownSummary(value);
+                break;
+            case STATUS_BAR_CLOCK_STYLE:
+                updateNetworkTrafficStatus(value);
+                break;
+            case STATUS_BAR_BATTERY_STYLE:
+                enableStatusBarBatteryDependents(value);
+                break;
         }
         return true;
     }
 
     private void enableStatusBarBatteryDependents(int batteryIconStyle) {
-        mStatusBarBatteryShowPercent.setEnabled(
-                batteryIconStyle != STATUS_BAR_BATTERY_STYLE_HIDDEN
-                && batteryIconStyle != STATUS_BAR_BATTERY_STYLE_TEXT);
+        mStatusBarBatteryShowPercent.setEnabled(batteryIconStyle != STATUS_BAR_BATTERY_STYLE_TEXT);
     }
 
     private void updateQuickPulldownSummary(int value) {
