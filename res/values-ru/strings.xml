@@ -134,6 +134,7 @@
   <string name="live_display_color_profile_basic_summary">Использовать неоткалиброванный дисплей</string>
   <string name="live_display_color_profile_adaptive_title">Адаптивный</string>
   <string name="live_display_color_profile_adaptive_summary">Цвета адаптируются к условиям окружающей среды</string>
+  <string name="live_display_color_profile_reading_title">Чтение</string>
   <string name="color_calibration_title">Цвет</string>
   <string name="color_calibration_summary">Настройка цветопередачи экрана</string>
   <string name="color_red_title">Красный</string>
@@ -237,7 +238,9 @@
   <string name="profile_action_enable">Включить</string>
   <string name="profile_trigger_a2dp_connect">При подключении A2DP</string>
   <string name="profile_trigger_a2dp_disconnect">При отключении A2DP</string>
+  <string name="profile_tabs_wifi">Wi\u2011Fi</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
+  <string name="profile_tabs_nfc">NFC</string>
   <string name="profile_triggers_header">Условия активации этого профиля</string>
   <string name="profile_setup_setup_triggers_title">Шаг 1: добавьте условия переключения</string>
   <string name="profile_setup_setup_triggers_title_config">Условия переключения: <xliff:g id="profile_name">%1$s</xliff:g></string>
@@ -292,6 +295,11 @@
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Удалить это приложение?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
+  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_2g3g">2G / 3G</string>
+  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">Громкость</string>
   <string name="connection_state_enabled">Включить</string>
@@ -338,6 +346,7 @@
   <string name="profile_brightness_override_summary">Установить на уровень %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Изменять яркость</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Точка доступа Wi-Fi</string>
   <string name="toggleBluetooth">Bluetooth</string>
   <string name="toggleGPS">GPS-модуль</string>
@@ -345,6 +354,7 @@
   <string name="toggleSync">Автосинхронизация</string>
   <string name="toggle2g3g4g">Предпочитаемый тип сети</string>
   <string name="toggle2g3g4g_msim">Предпочитаемый тип сети (%1$s)</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Режим звонка</string>
   <string name="ring_mode_normal">Обычный</string>
@@ -468,7 +478,10 @@
   <string name="expanded_desktop_style_hide_both">Скрывать строку состояния и панель навигации</string>
   <string name="expanded_desktop_nothing_to_show_text">Выключите, чтобы настроить режим расширенного рабочего стола для каждого приложения</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Сигнал подключения зарядного</string>
   <string name="charging_sounds_enabled_title">Включить</string>
+  <string name="charging_sounds_enabled_summary">Воспроизводить звук при подключении или отключении источника питания</string>
   <string name="power_notifications_vibrate_title">Вибросигнал</string>
+  <string name="charging_sounds_ringtone_title">Звук уведомления</string>
   <string name="charging_sounds_ringtone_silent">Без звука</string>
 </resources>

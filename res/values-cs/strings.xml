@@ -130,23 +130,57 @@
   <string name="live_display_color_profile_photography_title">Fotografie</string>
   <string name="live_display_color_profile_photography_summary">Perfektní zobrazení barev pro fotografie</string>
   <string name="live_display_color_profile_basic_title">Základní</string>
+  <string name="live_display_color_profile_adaptive_summary">Přizpůsobit barvy okolním podmínkám</string>
+  <string name="live_display_color_profile_reading_title">Čtení</string>
+  <string name="color_calibration_title">Kalibrace barev</string>
+  <string name="color_calibration_summary">Kalibrovat barvy obrazovky</string>
   <string name="color_red_title">Červená</string>
   <string name="color_green_title">Zelená</string>
   <string name="color_blue_title">Modrá</string>
   <!-- LiveDisplay : Picture Adjustment -->
+  <string name="picture_adjustment_title">Přizpůsobení obrazu</string>
+  <string name="picture_adjustment_summary">Přizpůsobit odstín, sytost, intenzitu a kontrast</string>
   <string name="adj_hue_title">Odstín</string>
   <string name="adj_saturation_title">Sytost</string>
+  <string name="adj_intensity_title">Intenzita</string>
   <string name="adj_contrast_title">Kontrast</string>
   <!-- Button settings -->
+  <string name="button_pref_title">Tlačítka</string>
+  <string name="hardware_keys_power_key_title">Tlačítko napájení</string>
+  <string name="hardware_keys_home_key_title">Tlačítko Domů</string>
   <string name="hardware_keys_menu_key_title">Tlačítko Menu</string>
+  <string name="hardware_keys_double_tap_title">Akce dvojím poklepáním</string>
+  <string name="hardware_keys_action_nothing">Žádná akce</string>
+  <string name="hardware_keys_action_menu">Otevřít/zavřít nabídku</string>
+  <string name="hardware_keys_action_app_switch">Přepínač nedávných aplikací</string>
+  <string name="hardware_keys_action_search">Vyhledávací asistent</string>
+  <string name="hardware_keys_action_voice_search">Hlasové vyhledávání</string>
+  <string name="hardware_keys_action_in_app_search">Hledat v aplikacích</string>
   <string name="hardware_keys_action_launch_camera">Spuštění fotoaparátu</string>
+  <string name="hardware_keys_action_sleep">Vypnout obrazovku</string>
+  <string name="hardware_keys_action_last_app">Poslední aplikace</string>
+  <string name="hardware_keys_action_split_screen">Rozdělené zobrazení</string>
+  <string name="camera_sleep_on_release_title">Náhled obrazovky</string>
+  <string name="camera_sleep_on_release_summary">Polovičním stiskem tlačítka bude rozsvícena obrazovka pouze po dobu, po kterou je tlačítko stisknuté</string>
   <string name="camera_launch_title">Spuštění fotoaparátu</string>
+  <string name="camera_launch_summary">Dlouhým stiskem a uvolněním spustit fotoaparát</string>
+  <string name="volbtn_music_controls_title">Ovládání přehrávání</string>
+  <string name="volbtn_music_controls_summary">Při vypnuté obrazovce posouvat v hudebních stopách dlouhým stiskem tlačítek hlasitosti</string>
+  <string name="volbtn_cursor_control_title">Ovládání kurzoru v textu</string>
   <string name="volbtn_cursor_control_off">Nezobrazovat</string>
+  <string name="volbtn_cursor_control_on">Hlasitost nahoru/dolů posune kurzorem vlevo/vpravo</string>
+  <string name="volbtn_cursor_control_on_reverse">Tlačítka hlasitosti nahoru/dolu posunou kurzor vpravo/vlevo</string>
   <string name="volume_answer_call_title">Přijmout hovor</string>
   <string name="volume_answer_call_summary">Přijmout příchozí hovor stisknutím tlačítka hlasitosti</string>
   <string name="home_answer_call_title">Přijmout hovor</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Protisvětlo</string>
+  <string name="button_backlight_enabled">Podsvícení tlačítek</string>
+  <string name="keyboard_backlight_enabled">Podsvícení klávesnice</string>
+  <string name="button_backlight_seekbar_title">Podsvícení tlačítek</string>
+  <string name="keyboard_backlight_seekbar_title">Podsvícení klávesnice</string>
+  <string name="backlight_timeout_title">Časový limit podsvícení</string>
+  <string name="backlight_timeout_unlimited">Nevypínat</string>
   <string name="backlight_summary_disabled">Nezobrazovat</string>
   <string name="backlight_summary_enabled">Povoleno</string>
   <!-- Buttons - Enable navbar -->
@@ -182,6 +216,7 @@
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleBluetooth">Zařízení Bluetooth</string>
+  <string name="toggleGPS">GPS</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_normal">Normální</string>
   <string name="ring_mode_vibrate">Vibrace</string>

@@ -123,6 +123,7 @@
   <string name="live_display_color_profile_natural_summary">Colori e toni della pelle realistici</string>
   <string name="live_display_color_profile_dynamic_title">Dinamico</string>
   <string name="live_display_color_profile_dynamic_summary">Colori intensi e bianchi luminosi</string>
+  <string name="live_display_color_profile_cinema_title">Cinema</string>
   <string name="live_display_color_profile_cinema_summary">Riproduzione del colore perfetto per i video</string>
   <string name="live_display_color_profile_astronomy_title">Astronomia</string>
   <string name="live_display_color_profile_astronomy_summary">Rosso profondo per la visione notturna</string>
@@ -132,6 +133,8 @@
   <string name="live_display_color_profile_basic_summary">Usa il display non calibrato</string>
   <string name="live_display_color_profile_adaptive_title">Adattivo</string>
   <string name="live_display_color_profile_adaptive_summary">I colori si adattano alle condizioni ambientali</string>
+  <string name="live_display_color_profile_reading_title">Lettura</string>
+  <string name="live_display_color_profile_reading_summary">Colori più caldi per occhi meno affaticati</string>
   <string name="color_calibration_title">Calibrazione colore</string>
   <string name="color_calibration_summary">Calibra i colori dello schermo</string>
   <string name="color_red_title">Rosso</string>
@@ -235,6 +238,7 @@
   <string name="profile_action_enable">Attiva</string>
   <string name="profile_trigger_a2dp_connect">Alla connessione A2DP</string>
   <string name="profile_trigger_a2dp_disconnect">Alla disconnessione A2DP</string>
+  <string name="profile_tabs_wifi">Wi\u2011Fi</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
   <string name="profile_tabs_nfc">NFC</string>
   <string name="profile_triggers_header">Inneschi che attiveranno questo profilo</string>
@@ -291,6 +295,11 @@
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Rimuovere quest\'app?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
+  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_2g3g">2G/3G</string>
+  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="profile_volumeoverrides_title">Sovrascrittura volumi</string>
   <string name="connection_state_enabled">Abilita</string>
@@ -337,6 +346,7 @@
   <string name="profile_brightness_override_summary">Imposta a %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Sovrascrivi luminosità</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Hotspot Wi\u2011Fi portatile</string>
   <string name="toggleBluetooth">Bluetooth</string>
   <string name="toggleGPS">GPS</string>
@@ -433,6 +443,8 @@
   <string name="weather_settings_general_settings_title">Generali</string>
   <string name="weather_settings_providers_title">Provider</string>
   <string name="weather_settings_temp_units_title">Unità temperatura</string>
+  <string name="weather_settings_temp_celsius">Centigradi</string>
+  <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
   <string name="weather_settings_keyword">meteo</string>
   <string name="status_bar_show_weather_title">Mostra meteo</string>
   <string name="status_bar_show_weather_summary">Mostra la temperatura corrente nella barra di stato</string>
@@ -463,7 +475,10 @@
   <string name="expanded_desktop_style_hide_both">Nascondi entrambe</string>
   <string name="expanded_desktop_nothing_to_show_text">Spegni l\'interruttore per personalizzare lo schermo esteso basato su ogni singola app</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Suoni di ricarica</string>
   <string name="charging_sounds_enabled_title">Attiva</string>
+  <string name="charging_sounds_enabled_summary">Riproduci un suono quando si collega o si scollega l\'alimentatore</string>
   <string name="power_notifications_vibrate_title">Vibrazione</string>
+  <string name="charging_sounds_ringtone_title">Suono di notifica</string>
   <string name="charging_sounds_ringtone_silent">Silenzioso</string>
 </resources>

@@ -18,12 +18,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Generic stuff used everywhere -->
-  <string name="loading">Ладаваньне\u2026</string>
+  <string name="loading">Загрузка\u2026</string>
   <string name="dlg_ok">Добра</string>
   <string name="cancel">Скасаваць</string>
   <string name="add">Дадаць</string>
-  <string name="choose_app">Абраць дадатак</string>
-  <string name="reset">Скінуць налады</string>
+  <string name="choose_app">Абраць праграму</string>
+  <string name="reset">Скінуць</string>
   <string name="advanced">Падрабязьней</string>
   <string name="settings">Налады</string>
   <string name="name">Імя</string>
@@ -77,17 +77,17 @@
   <string name="pulse_speed_slow">Павольна</string>
   <string name="pulse_speed_very_slow">Вельмі павольна</string>
   <!-- Battery light settings -->
-  <string name="battery_light_title">Паказчык жывелькі</string>
+  <string name="battery_light_title">Індыкатар батарэі</string>
   <string name="battery_low_pulse_title">Мігцець падчас нізкага ўзроўню зараду</string>
   <string name="battery_light_list_title">Колеры</string>
   <string name="battery_light_low_color_title">Жывелька: крытычны ўзровень</string>
-  <string name="battery_light_medium_color_title">Жывелька: сілкаваньне</string>
-  <string name="battery_light_full_color_title">Жывелька: поўны зарад</string>
+  <string name="battery_light_medium_color_title">Зараджаецца</string>
+  <string name="battery_light_full_color_title">Цалкам зараджаны</string>
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_title">Светлавыя паведамленьні</string>
   <string name="notification_light_general_title">Агульнае</string>
   <string name="notification_light_advanced_title">Падрабязьней</string>
-  <string name="notification_light_applist_title">Дадаткі</string>
+  <string name="notification_light_applist_title">Праграмы</string>
   <string name="notification_light_phonelist_title">Тэлефон</string>
   <string name="notification_light_use_custom">Уласныя значэння</string>
   <string name="notification_light_default_value">Па змаўчанні</string>
@@ -135,6 +135,7 @@
   <string name="live_display_color_profile_adaptive_title">Адаптыўны</string>
   <string name="live_display_color_profile_adaptive_summary">Колеру адаптуюцца да ўмоў навакольнага асяроддзя</string>
   <string name="live_display_color_profile_reading_title">Чытанне</string>
+  <string name="live_display_color_profile_reading_summary">Больш цёплы колеру для меншага напружання вачэй</string>
   <string name="color_calibration_title">Калібраваньне колераў</string>
   <string name="color_calibration_summary">Налада колераперадачы экрана</string>
   <string name="color_red_title">Чырвоны</string>
@@ -152,10 +153,10 @@
   <string name="hardware_keys_power_key_title">Кнопка уключэньня</string>
   <string name="hardware_keys_home_key_title">Хатоўка</string>
   <string name="hardware_keys_back_key_title">Вяртаньне</string>
-  <string name="hardware_keys_menu_key_title">Мэню</string>
+  <string name="hardware_keys_menu_key_title">Меню</string>
   <string name="hardware_keys_assist_key_title">Пошук</string>
   <string name="hardware_keys_appswitch_key_title">Задзейнічаныя дадаткі</string>
-  <string name="hardware_keys_camera_key_title">Камэра</string>
+  <string name="hardware_keys_camera_key_title">Камера</string>
   <string name="hardware_keys_volume_keys_title">Кнопкі гучнасці</string>
   <string name="hardware_keys_short_press_title">Кароткі націск</string>
   <string name="hardware_keys_long_press_title">Доўгі націск</string>
@@ -174,24 +175,29 @@
   <string name="camera_sleep_on_release_summary">Трымаць экран уключаным толькі пры ўтрымліванні кнопкі</string>
   <string name="camera_launch_title">Задзейнічаць камеру</string>
   <string name="camera_launch_summary">Задзейнічаць камеру падчас доўгага націсканьня клявішы</string>
+  <string name="volbtn_music_controls_title">Для кіравання прайграваннем</string>
+  <string name="volbtn_music_controls_summary">Пераключаць музычныя трэкі доўгім націскам кнопак гучнасці пры выключаным экране</string>
   <string name="volbtn_cursor_control_title">Перасоўваньне курсору</string>
   <string name="volbtn_cursor_control_off">Не задзейнічана</string>
   <string name="volbtn_cursor_control_on">Гучнасьць больш/меньш перасоўвае курсор улева/управа</string>
   <string name="volbtn_cursor_control_on_reverse">Гучнасьць больш/меньш перасоўвае курсор управа/улева</string>
   <string name="power_end_call_title">Скончыць размову</string>
+  <string name="power_end_call_summary">Завяршаць тэлефонны выклік націскам кнопкі выключэння</string>
   <string name="swap_volume_buttons_title">Аўтапаварот</string>
   <string name="swap_volume_buttons_summary">Мяняе месцамі кнопкі кіраваньня гучнасьці згодна экрану</string>
+  <string name="button_wake_title">Абудзіць прыладу</string>
   <string name="volume_answer_call_title">Адказваць на выклікі</string>
   <string name="volume_answer_call_summary">Адказваць на выклік клавішамі гучнасьці</string>
   <string name="home_answer_call_title">Адказваць на выклікі</string>
+  <string name="home_answer_call_summary">Адказваць на выклік клавішай Хатоўка</string>
   <!-- Key backlight -->
-  <string name="button_backlight_title">Падсьвечваньне</string>
+  <string name="button_backlight_title">Падсвечванне</string>
   <string name="button_backlight_enabled">Падсьвечваньне кнопак</string>
   <string name="keyboard_backlight_enabled">Падсьвечваньне клявіятуры</string>
   <string name="button_backlight_seekbar_title">Яскравасьць кнопак</string>
   <string name="keyboard_backlight_seekbar_title">Яскравасьць клявіятуры</string>
   <string name="backlight_timeout_title">Працягласьць падсьвятленьня</string>
-  <string name="backlight_timeout_unlimited">Не вымыкаць</string>
+  <string name="backlight_timeout_unlimited">Не выключайце</string>
   <string name="backlight_summary_disabled">Не задзейнічана</string>
   <string name="backlight_summary_enabled_with_timeout">Задзейнічана для <xliff:g id="timeout">%s</xliff:g></string>
   <string name="backlight_summary_enabled">Задзейнічана</string>
@@ -207,6 +213,7 @@
   <string name="navigation_bar_arrow_keys_summary">Паказваць кнопки левага и правага курсору падчас друкаваньня. Кнопка варыянту друкаваньня будзе схована.</string>
   <string name="navigation_bar_home_long_press_title">Доўгае утрыманьне кнопкі \"Хатоўка\"</string>
   <string name="navigation_bar_home_double_tap_title">Падвойнае крананьне кнопкі \"Хатоўка\"</string>
+  <string name="navigation_bar_recents_title">Доўгае утрыманне кнопкі Агляд</string>
   <!-- Power menu -->
   <string name="power_menu_title">Дзеяньні пры ўтрыманьні кнопкі выключэньня</string>
   <string name="power_menu_reboot_title">Перазапусканьне</string>
@@ -217,7 +224,13 @@
   <string name="power_menu_lockdown_title">Блакаваньне прылады</string>
   <string name="power_menu_bug_report_title">Справаздача пра памылкі</string>
   <string name="power_menu_sound_title">Гукавая панэль</string>
+  <string name="power_menu_bug_report_disabled">Справаздача пра памылку адключаны ў наладах для распрацоўніка</string>
+  <string name="volume_keys_control_ring_stream_title">Рэгуляванне гучнасці рынгтона</string>
+  <string name="volume_keys_control_ring_stream_summary_on">Кнопкі гучнасці рэгулююць гучнасць рынгтона</string>
+  <string name="volume_keys_control_ring_stream_summary_off">Кнопкі гучнасці рэгулююць гучнасць мультымедыя</string>
+  <string name="camera_double_tap_power_gesture_title">Націсніце кнопку выключэння двойчы для запуску камеры</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="camera_double_tap_power_gesture_desc">Хутка запусціць камеру без разблакоўкі прылады</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Выдаліць</string>
   <string name="profile_action_none">Пакінуць без змяненьня</string>
@@ -226,6 +239,7 @@
   <string name="profile_action_enable">Уключыць</string>
   <string name="profile_trigger_a2dp_connect">Пры падключэнні A2DP</string>
   <string name="profile_trigger_a2dp_disconnect">Пры адключэнні A2DP</string>
+  <string name="profile_tabs_wifi">Wi-Fi</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
   <string name="profile_tabs_nfc">NFC</string>
   <string name="profile_triggers_header">Умовы актываваньня гэтага профілю</string>
@@ -238,6 +252,9 @@
   <string name="no_bluetooth_triggers">Няма спалучаных прыладаў Bluetooth.\nНацісьні, каб дадаць прыладу і стварыць умову пераключэньня на яго аснове.</string>
   <string name="no_wifi_triggers">Няма захаваных сетак Wi\u2011Fi.\nНацісьні, каб дадаць сетку Wi\u2011Fi і стварыць умову пераключэньня на яе аснове.</string>
   <string name="no_triggers_configured">Умовы пераключэньня не наладжаны. Націсьні, каб дадаць умову.</string>
+  <string name="no_triggers_configured_nfc">Націсніце для дадання NFC-пазнакі да гэтага профілю.</string>
+  <string name="profile_setup_setup_triggers_description">Пакажыце ўмовы, пры якіх будзе ўключацца дадзены профіль</string>
+  <string name="profile_setup_actions_description">Зараз можна наладзіць, што павінна адбывацца пры актывацыі профілю</string>
   <!-- Profiles settings  -->
   <string name="profiles_settings_title">Профілі сістэмы</string>
   <string name="profiles_add">Дадаць</string>
@@ -259,30 +276,68 @@
   <string name="profile_populate_profile_from_state">Стварыць профіль з бягучых налад прылады?</string>
   <string name="profile_menu_fill_from_state">Выкарыстоўваць бягучыя налады</string>
   <string name="profile_remove_current_profile">Немагчыма выдаліць бягучы профіль!</string>
+  <string name="profile_app_group_category_title">Апавяшчэння</string>
   <string name="profile_app_group_item_instructions">Дадаць ці выдаліць групоўкі</string>
+  <string name="profile_app_group_item_instructions_summary">Змена налад апавяшчэнняў для груп прыкладанняў ў гэтым профілі</string>
   <!-- Profile mode options. -->
   <string name="profile_entries_on">Задзейнічана</string>
   <string name="profile_entries_off">Не задзейнічана</string>
+  <string name="profile_entries_no_override">Пакінуць без змен</string>
   <!-- Add Profile -->
   <string name="profile_name_title">Імя</string>
+  <string name="new_profile_name">&lt;Новы профіль&gt;</string>
   <!-- Rename Dialog  -->
   <string name="rename_dialog_title">Перайменаваць</string>
+  <string name="rename_dialog_message">Задайце новую назву</string>
+  <string name="rename_dialog_hint">Увядзіце назву профіля</string>
   <!-- Reset Profiles -->
   <string name="profile_reset_title">Скінуць</string>
+  <string name="profile_reset_message">Выдаліць усе карыстацкія профілі і ўсталяваць значэнні па змаўчанні?</string>
   <!-- Delete confimation messages -->
+  <string name="profile_app_delete_confirm">Выдаліць гэтую праграму?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
+  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_2g3g">2G/3G</string>
+  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="profile_volumeoverrides_title">Налады гучнасці</string>
   <string name="connection_state_enabled">Уключыць</string>
+  <string name="volume_override_summary">Усталяваць у %1$s/%2$s</string>
+  <string name="profile_volume_override_checkbox_label">Змяняць гучнасць</string>
   <!-- Menu item for managing profiles -->
+  <string name="profile_profiles_manage">Профілі</string>
+  <string name="profile_profile_manage">Кіраванне профілем</string>
+  <string name="profile_appgroups_manage">Групы праграм</string>
+  <string name="profile_appgroup_manage">Кіраванне групай праграм</string>
   <!-- Profile settings screen, section header for settings related to notification profiles -->
+  <string name="profile_settings">Налады профілю</string>
+  <string name="profile_trigger_connect">Пры падключэнні</string>
+  <string name="profile_trigger_disconnect">Пры адключэнні</string>
+  <string name="profile_trigger_notrigger">Не ўплывае на змяненне профілю</string>
   <!-- Profile Settings sound modes labels -->
+  <string name="sound_mode">Рэжым апавяшчэнняў</string>
+  <string name="ringer_mode">Рэжым званка</string>
+  <string name="lights_mode">Індыкатар падзей</string>
+  <string name="vibrate_mode">Рэжым вібрацыі</string>
+  <string name="choose_soundtone">Выбраць гук апавяшчэнняў</string>
+  <string name="choose_ringtone">Абраць рынгтон</string>
+  <string name="ringtone_title">Мелодыя тэлефона</string>
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+  <string name="soundtone_title">Гук апавяшчэння</string>
   <!-- Title for application group setting screen -->
-  <string name="profile_applist_title">Дадаткі</string>
+  <string name="profile_appgroups_title">Групы праграм</string>
+  <string name="profile_applist_title">Праграмы</string>
+  <string name="profile_new_appgroup">Новая група праграм</string>
+  <string name="profile_delete_appgroup">Выдаліць гэтую групу праграм?</string>
+  <string name="profile_appgroup_name_prompt">Увядзіце назву для групы праграм</string>
   <string name="profile_appgroup_name_title">Імя</string>
+  <string name="duplicate_appgroup_name">Такая група праграм ужо існуе!</string>
   <!-- Add application dialog box title -->
-  <string name="profile_choose_app">Абраць дадатак</string>
+  <string name="profile_choose_app">Абраць праграму</string>
   <!-- Profiles - system settings -->
+  <string name="profile_system_settings_title">Налады сістэмы</string>
   <string name="profile_lockmode_title">Блакаваньне экрану</string>
   <string name="profile_lockmode_policy_disabled_summary">Гэты профілю адключаны адміністратарам прылады</string>
   <string name="profile_lockmode_insecure_summary">Не запытваць PIN-код ці пароль</string>
@@ -292,12 +347,14 @@
   <string name="profile_brightness_override_summary">Выкарыстоўваць на ўзроўні %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Зьмяніць узровень яскравасьці</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi-Fi</string>
   <string name="toggleWifiAp">Кропка доступу Wi\u2011Fi</string>
   <string name="toggleBluetooth">Bluetooth</string>
   <string name="toggleGPS">GPS-модуль</string>
   <string name="toggleData">Мабільныя дадзеныя</string>
   <string name="toggleSync">Аўтаматычнае сінхранізаваньне дадзеных</string>
   <string name="toggle2g3g4g">Варыянт сеткі</string>
+  <string name="toggle2g3g4g_msim">Пераважны тып сеткі (%1$s)</string>
   <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Рэжым выкліку</string>
@@ -335,19 +392,60 @@
   <string name="status_bar_am_pm_hidden">Схаваць</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_title">Варыянт адлюстроўваньня жывелкі</string>
+  <string name="status_bar_battery_style_icon_portrait">Вертыкальны значок</string>
+  <string name="status_bar_battery_style_icon_landscape">Гарызантальны значок</string>
+  <string name="status_bar_battery_style_circle">Круг</string>
   <string name="status_bar_battery_style_text">Тэкст</string>
   <string name="status_bar_battery_style_hidden">Схаваць</string>
   <!-- Status bar - Battery percentage -->
+  <string name="status_bar_battery_percentage_title">Працэнт зарада батарэі</string>
   <string name="status_bar_battery_percentage_default">Схаваць</string>
+  <string name="status_bar_battery_percentage_text_inside">Унутры значка</string>
+  <string name="status_bar_battery_percentage_text_next">Побач са значком</string>
   <!-- Status bar - icon blacklist -->
+  <string name="status_bar_icons_title">Значкі ў радку стану</string>
+  <string name="status_bar_icons_summary">Налада бачнасці значкоў</string>
   <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_double_tap_to_sleep_title">Выключаць экран пры падвойным націску</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Двойчы краніце радка стану, каб перавесці прыладу ў спячы рэжым</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Заблакаваць дадаткі</string>
   <string name="protected_apps_manager_summary">Кіраванне праграмамі, для запуску якіх патрабуецца ўвод пароля</string>
   <!-- Contributors cloud activity -->
+  <string name="contributors_cloud_fragment_title">Аўтары</string>
+  <string name="contributors_cloud_loading_message">Загрузка дадзеных\u2026</string>
+  <string name="contributors_cloud_failed_message">Не атрымалася загрузіць звесткі аб удзельніках праекта</string>
+  <string name="contributor_info_menu">Звесткі аб удзельніках</string>
+  <string name="contributor_info_msg">
+        <![CDATA[<b>Імя:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+                 <b>Псеўданім:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
+                 <b>Камітаў:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
+  <string name="contributions_info_menu">Агульная статыстыка</string>
+  <string name="contributions_info_msg">
+ <![CDATA[<b>Усяго удзельнікаў:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+<b>Усяго камітаў:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
+<b>Апошняе абнаўленне:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Display : Rotation  -->
+  <string name="accelerometer_title">Аўтапаварот экрана</string>
+  <string name="display_rotation_title">Параметры кручэння</string>
+  <string name="display_rotation_enabled">Аўтапаварот уключаны</string>
+  <string name="display_rotation_disabled">Аўтапаварот адключаны</string>
+  <string name="display_rotation_unit">градусаў</string>
+  <string name="display_lockscreen_rotation_title">Аўтапаварот экрана блакавання</string>
+  <string name="display_rotation_category_title">Рэжымы кручэння</string>
+  <string name="display_rotation_0_title">0 градусаў</string>
+  <string name="display_rotation_90_title">90 градусаў</string>
+  <string name="display_rotation_180_title">180 градусаў</string>
+  <string name="display_rotation_270_title">270 градусаў</string>
   <!-- Weather -->
+  <string name="weather_settings_title">Надвор\'е</string>
+  <string name="weather_settings_no_services_prompt">Няма усталяваных службаў пастаўшчыкоў надвор\'я</string>
+  <string name="weather_settings_no_services_summary">Усталюйце службу пастаўшчыка надвор\'я, каб атрымліваць абнаўлення надвор\'я</string>
+  <string name="weather_settings_button">Налады пастаўшчыка</string>
+  <string name="weather_settings_activity_not_found">Не ўдаецца запусціць меню налад гэтага пастаўшчыка</string>
+  <string name="weather_settings_add_weather_provider">Дадаць пастаўшчыка надвор\'я</string>
   <string name="weather_settings_general_settings_title">Агульнае</string>
+  <string name="weather_settings_providers_title">Пастаўшчыкі</string>
   <string name="weather_settings_temp_units_title">Адзінкі тэмпературы</string>
   <string name="weather_settings_temp_celsius">Цэльсій</string>
   <string name="weather_settings_temp_fahrenheit">Фарэнгейт</string>
@@ -355,18 +453,36 @@
   <string name="status_bar_show_weather_title">Паказваць надвор\'е</string>
   <string name="status_bar_show_weather_summary">Паказваць надвор\'е ў радку стану</string>
   <!-- Power: Performance profiles -->
+  <string name="perf_profile_settings_title">Энергазберажэнне і прадукцыйнасць</string>
+  <string name="perf_profile_settings_summary">Падладжваць энергазберажэнне і прадукцыйнасць прылады</string>
   <string name="perf_profile_overview_summary">Бягучы профіль: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_category_title">Прадукцыйнасць прылады</string>
+  <string name="perf_profile_title">Профіль прадукцыйнасці: <xliff:g id="perf_profile_name">%1$s </xliff:g></string>
+  <string name="perf_profile_fail_toast">Профіль прадукцыйнасці зараз недаступны</string>
   <string name="power_save_category_title">Энергазахаваньне</string>
+  <string name="power_save_title">Агрэсіўныя энергазберажэнне</string>
   <string name="power_save_summary">Абмяжоўваньне працаздольнасьці і фанавай актыўнасьці дзеля энэргазахаваньня</string>
+  <string name="auto_power_save_title">Аўтаматычнае энергазберажэнне</string>
+  <string name="auto_power_save_summary_on">Аўтаматычна ўключаць энергазберажэнне на %s батарэі</string>
+  <string name="auto_power_save_summary_off">Не ўключаць энергазберажэнне аўтаматычна</string>
+  <string name="app_perf_profiles_title">Аўтаматычная аптымізацыя</string>
+  <string name="app_perf_profiles_summary">Аўтаматычна пераключаць профіль прадукцыйнасці ў залежнасці ад праграмы</string>
   <string name="auto_power_save_never">Ніколі</string>
   <!-- Applications: Expanded desktop -->
+  <string name="expanded_desktop_settings_title">Рэжым пашыранага экрану</string>
+  <string name="expanded_desktop_settings_summary">Пашырэнне даступнай прасторы экрана шляхам ўтойвання радка стану і/або панэлі навігацыі</string>
+  <string name="expanded_desktop_options_title">Налады</string>
   <string name="expanded_desktop_style_title">Рэжым пашыранага экрану</string>
   <string name="expanded_desktop_style_hide_nothing">Нічога не хаваць</string>
   <string name="expanded_desktop_style_hide_status">Хаваць радок стану</string>
   <string name="expanded_desktop_style_hide_navigation">Схаваць навігацыйны радок</string>
   <string name="expanded_desktop_style_hide_both">Схаваць абедзве</string>
+  <string name="expanded_desktop_nothing_to_show_text">Выключыце, каб наладзіць рэжым пашыранага працоўнага стала для кожнага прыкладання</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Гукі зарадкі</string>
   <string name="charging_sounds_enabled_title">Уключыць</string>
+  <string name="charging_sounds_enabled_summary">Прайграванне гуку пры падключэнні або адключэнні крыніцы сілкавання</string>
   <string name="power_notifications_vibrate_title">Вібрацыя</string>
+  <string name="charging_sounds_ringtone_title">Гукі апавяшчэнняў</string>
   <string name="charging_sounds_ringtone_silent">Ціхі рэжым</string>
 </resources>

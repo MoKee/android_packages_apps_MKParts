@@ -125,12 +125,17 @@
   <!-- LiveDisplay : Picture Adjustment -->
   <string name="adj_hue_title">Teinte</string>
   <string name="adj_saturation_title">Saturation</string>
+  <string name="adj_intensity_title">Intensité</string>
   <string name="adj_contrast_title">Contraste</string>
   <!-- Button settings -->
+  <string name="button_pref_title">Boutons</string>
   <string name="hardware_keys_menu_key_title">Bouton \"Menu\"</string>
   <string name="hardware_keys_appswitch_key_title">Bouton Récents</string>
+  <string name="hardware_keys_volume_keys_title">Boutons de volume</string>
   <string name="hardware_keys_action_app_switch">Applications récentes</string>
+  <string name="hardware_keys_action_search">Assistant de recherche</string>
   <string name="hardware_keys_action_launch_camera">Lancer l\'appareil photo</string>
+  <string name="hardware_keys_action_sleep">Éteindre l\'écran</string>
   <string name="camera_launch_title">Lancer l\'appareil photo</string>
   <string name="volbtn_cursor_control_off">Désactivé</string>
   <string name="volbtn_cursor_control_on">La touche haut déplace le curseur vers la gauche et bas vers la droite</string>
@@ -179,11 +184,14 @@
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Supprimer</string>
+  <string name="profile_tabs_wifi">Wi-Fi</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
+  <string name="profile_tabs_nfc">CCP</string>
   <!-- Profile triggers -->
   <!-- Profiles settings  -->
   <string name="profiles_add">Ajouter</string>
   <string name="profile_menu_delete">Supprimer</string>
+  <string name="profile_selected">Profil sélectionné : %1$s</string>
   <!-- Profile mode options. -->
   <string name="profile_entries_on">Activé</string>
   <string name="profile_entries_off">Désactivé</string>
@@ -194,10 +202,17 @@
   <!-- Reset Profiles -->
   <string name="profile_reset_title">Rétablir</string>
   <!-- Delete confimation messages -->
+  <string name="profile_app_delete_confirm">Supprimer cette application ?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
+  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_2g3g">2G/3G</string>
+  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="connection_state_enabled">Activé</string>
   <!-- Menu item for managing profiles -->
+  <string name="profile_profiles_manage">Profils</string>
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
@@ -207,22 +222,49 @@
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Choisissez une application</string>
   <!-- Profiles - system settings -->
+  <string name="profile_lockmode_disabled_summary">Désactiver l\'écran de verrouillage</string>
   <string name="profile_airplanemode_title">Mode Avion</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi-Fi</string>
   <string name="toggleBluetooth">Bluetooth</string>
+  <string name="toggleGPS">GPS</string>
+  <string name="toggleNfc">CCP</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_normal">Standard</string>
   <string name="ring_mode_vibrate">Vibreur</string>
   <string name="ring_mode_mute">Couper le son</string>
+  <string name="incoming_call_volume_title">Sonnerie</string>
+  <string name="notification_volume_title">Notification</string>
   <string name="media_volume_title">Média</string>
   <!-- Status bar -->
+  <string name="status_bar_quick_qs_pulldown_summary">Tirer le côté %1$s pour ouvrir la configuration rapide</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Gauche</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Droite</string>
   <string name="status_bar_quick_qs_pulldown_off">Désactivé</string>
+  <string name="status_bar_quick_qs_pulldown_left">Gauche</string>
+  <string name="status_bar_quick_qs_pulldown_right">Droite</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_position_title">Position de l’horloge</string>
+  <string name="status_bar_clock_position_right">À droite</string>
+  <string name="status_bar_clock_position_left">À gauche</string>
+  <string name="status_bar_clock_position_center">Centrée</string>
+  <string name="status_bar_am_pm_title">Style AM/PM</string>
+  <string name="status_bar_am_pm_info">Format 24h activé</string>
   <string name="status_bar_am_pm_normal">Standard</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_title">Affichage du niveau de batterie</string>
+  <string name="status_bar_battery_style_icon_portrait">Icône portrait</string>
+  <string name="status_bar_battery_style_icon_landscape">Icône paysage</string>
+  <string name="status_bar_battery_style_circle">Cercle</string>
   <string name="status_bar_battery_style_text">Texte</string>
+  <string name="status_bar_battery_style_hidden">Masqué</string>
   <!-- Status bar - Battery percentage -->
+  <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
+  <string name="status_bar_battery_percentage_default">Masqué</string>
+  <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
+  <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
   <!-- Status bar - icon blacklist -->
+  <string name="status_bar_icons_title">Icônes de la barre d’état</string>
   <!-- Status bar - double tap to sleep -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Applications protégées</string>
@@ -251,11 +293,14 @@
   <string name="weather_settings_general_settings_title">Général</string>
   <string name="weather_settings_providers_title">Fournisseurs</string>
   <string name="weather_settings_temp_units_title">Unité de température</string>
+  <string name="weather_settings_temp_celsius">Celsius</string>
+  <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
   <string name="weather_settings_keyword">météo</string>
   <string name="status_bar_show_weather_title">Afficher la météo</string>
   <string name="status_bar_show_weather_summary">Afficher la température actuelle dans la barre d\'état</string>
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">Économiseur de batterie et performances</string>
+  <string name="perf_profile_overview_summary">Profil actuel : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="auto_power_save_never">Jamais</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->

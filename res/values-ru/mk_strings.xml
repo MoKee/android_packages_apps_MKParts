@@ -30,6 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Входящий</string>
   <string name="status_bar_network_traffic_style_all">Исходящий и входящий</string>
   <!-- Long-press power for torch -->
-  <string name="torch_long_press_power_gesture_title">Удержиние кнопки питания для включения фонарика</string>
+  <string name="torch_long_press_power_gesture_title">Удержание кнопки питания для включения фонарика</string>
   <string name="torch_long_press_power_gesture_desc">Включите фонарик долгим нажатием кнопки питания, при выключенном экране</string>
 </resources>
