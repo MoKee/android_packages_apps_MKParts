@@ -483,5 +483,35 @@
   <string name="charging_sounds_ringtone_title">Гукі апавяшчэнняў</string>
   <string name="charging_sounds_ringtone_silent">Ціхі рэжым</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Сэнсарныя жэсты</string>
+  <string name="touchscreen_gesture_settings_summary">Выкананне розных сэнсарных жэстаў на экране для хуткіх дзеянняў</string>
   <string name="touchscreen_gestures_haptic_feedback_title">Вібраводгук</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Вібрыруе, калі сэнсарны жэст знойдзены</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Правядзіце ўніз двума пальцамі</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Правядзіце уверх аднім пальцам</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Правядзіце ўніз аднім пальцам</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Правядзіце налева адным пальцам</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Правядзіце направа адным пальцам</string>
+  <string name="touchscreen_gesture_up_arrow_title">Намалюйце \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Намалюйце \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Намалюйце \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Намалюйце \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Намалюйце літару \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Намалюйце літару \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Намалюйце літару \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Намалюйце літару \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Намалюйце літару \"S\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Намалюйце літару \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Намалюйце літару \"Z\"</string>
+  <string name="touchscreen_gesture_action_dialog_title">Жэсты</string>
+  <string name="touchscreen_gesture_action_do_nothing">Нічога не рабіць</string>
+  <string name="touchscreen_gesture_action_flashlight">Пераключыцца на ліхтарыка</string>
+  <string name="touchscreen_gesture_action_camera">Уключыць камеру</string>
+  <string name="touchscreen_gesture_action_browser">Адкрыць браузэр</string>
+  <string name="touchscreen_gesture_action_dialer">Адкрыць тэлефон</string>
+  <string name="touchscreen_gesture_action_email">Прагляд паведамленняў emails</string>
+  <string name="touchscreen_gesture_action_messages">Прагляд паведамленняў</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Прайграванне/паўза музыкі</string>
+  <string name="touchscreen_gesture_action_previous_track">Пераход да папярэдняй музычнай дарожцы</string>
+  <string name="touchscreen_gesture_action_next_track">Пераход да наступнай музычнай дарожцы</string>
 </resources>
