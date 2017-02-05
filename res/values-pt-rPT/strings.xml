@@ -439,6 +439,7 @@
   <string name="auto_power_save_summary_off">Não ativar automaticamente a poupança de bateria</string>
   <string name="app_perf_profiles_title">Otimização automática</string>
   <string name="app_perf_profiles_summary">Escolher automaticamemte o perfil de desempenho adequado para várias aplicações</string>
+  <string name="auto_power_save_never">Nunca</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Área de trabalho expandida</string>
   <string name="expanded_desktop_settings_summary">Aumente o espaço disponível da sua área de trabalho ocultando a barra de estado, a barra de navegação ou ambos</string>

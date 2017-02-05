@@ -108,6 +108,7 @@
   <string name="live_display_mode">Režim zobrazení</string>
   <string name="live_display_color_temperature_title">Teplota barev</string>
   <string name="live_display_color_temperature_summary">Den: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
   <string name="live_display_day">Den</string>
   <string name="live_display_night">Noc</string>
   <string name="live_display_outdoor_mode_title">Automatický režim venku</string>
@@ -130,8 +131,11 @@
   <string name="live_display_color_profile_photography_title">Fotografie</string>
   <string name="live_display_color_profile_photography_summary">Perfektní zobrazení barev pro fotografie</string>
   <string name="live_display_color_profile_basic_title">Základní</string>
+  <string name="live_display_color_profile_basic_summary">Použít nezkalibrovaný displej</string>
+  <string name="live_display_color_profile_adaptive_title">Adaptivní</string>
   <string name="live_display_color_profile_adaptive_summary">Přizpůsobit barvy okolním podmínkám</string>
   <string name="live_display_color_profile_reading_title">Čtení</string>
+  <string name="live_display_color_profile_reading_summary">Teplejší barvy pro menší namáhání očí</string>
   <string name="color_calibration_title">Kalibrace barev</string>
   <string name="color_calibration_summary">Kalibrovat barvy obrazovky</string>
   <string name="color_red_title">Červená</string>
@@ -148,7 +152,14 @@
   <string name="button_pref_title">Tlačítka</string>
   <string name="hardware_keys_power_key_title">Tlačítko napájení</string>
   <string name="hardware_keys_home_key_title">Tlačítko Domů</string>
+  <string name="hardware_keys_back_key_title">Tlačítko Zpět</string>
   <string name="hardware_keys_menu_key_title">Tlačítko Menu</string>
+  <string name="hardware_keys_assist_key_title">Tlačítko Hledat</string>
+  <string name="hardware_keys_appswitch_key_title">Tlačítko Nedávné aplikace</string>
+  <string name="hardware_keys_camera_key_title">Tlačítko fotoaparátu</string>
+  <string name="hardware_keys_volume_keys_title">Tlačítka hlasitosti</string>
+  <string name="hardware_keys_short_press_title">Akce krátkého stisku</string>
+  <string name="hardware_keys_long_press_title">Akce dlouhého stisku</string>
   <string name="hardware_keys_double_tap_title">Akce dvojím poklepáním</string>
   <string name="hardware_keys_action_nothing">Žádná akce</string>
   <string name="hardware_keys_action_menu">Otevřít/zavřít nabídku</string>
@@ -170,6 +181,10 @@
   <string name="volbtn_cursor_control_off">Nezobrazovat</string>
   <string name="volbtn_cursor_control_on">Hlasitost nahoru/dolů posune kurzorem vlevo/vpravo</string>
   <string name="volbtn_cursor_control_on_reverse">Tlačítka hlasitosti nahoru/dolu posunou kurzor vpravo/vlevo</string>
+  <string name="power_end_call_title">Ukončit hovor</string>
+  <string name="power_end_call_summary">Ukončit aktuální hovor stisknutím tlačítka napájení</string>
+  <string name="swap_volume_buttons_title">Přeorientovat</string>
+  <string name="swap_volume_buttons_summary">Výměna tlačítek hlasitosti při otočení obrazovky</string>
   <string name="volume_answer_call_title">Přijmout hovor</string>
   <string name="volume_answer_call_summary">Přijmout příchozí hovor stisknutím tlačítka hlasitosti</string>
   <string name="home_answer_call_title">Přijmout hovor</string>
@@ -182,41 +197,111 @@
   <string name="backlight_timeout_title">Časový limit podsvícení</string>
   <string name="backlight_timeout_unlimited">Nevypínat</string>
   <string name="backlight_summary_disabled">Nezobrazovat</string>
+  <string name="backlight_summary_enabled_with_timeout">Povoleno po <xliff:g id="timeout"> %s </xliff:g></string>
   <string name="backlight_summary_enabled">Povoleno</string>
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_title">Povolit navigační lištu na obrazovce</string>
+  <string name="disable_navkeys_summary">Povolit navigační lištu na obrazovce a zakázat hardwarová tlačítka</string>
   <!-- Navigation Bar -->
+  <string name="navigation_bar_category">Navigační lišta</string>
+  <string name="navigation_bar_title">Tlačítka a rozmístění</string>
+  <string name="navigation_bar_left_title">Režim ovládání levou rukou</string>
+  <string name="navigation_bar_left_summary">Při natočení na šířku umístit navigační lištu na levé straně obrazovky</string>
+  <string name="navigation_bar_arrow_keys_title">Zobrazit navigační šipky při psaní</string>
+  <string name="navigation_bar_arrow_keys_summary">Zobrazit levý a pravý kurzor při psaní. Potlačí IME přepínač.</string>
+  <string name="navigation_bar_home_long_press_title">Akce dlouhého stisku tlačítka „Domů“</string>
+  <string name="navigation_bar_home_double_tap_title">Akce dvojitého stisku tlačítka „Domů“</string>
+  <string name="navigation_bar_recents_title">Akce dlouhého stisku na tlačítku „Nedávné“</string>
   <!-- Power menu -->
+  <string name="power_menu_title">Nabídka tlačítka Vypnout</string>
+  <string name="power_menu_reboot_title">Nabídka restartu</string>
   <string name="power_menu_screenshot_title">Snímek obrazovky</string>
+  <string name="volume_keys_control_ring_stream_summary_on">Tlačítka hlasitosti ovládají hlasitost vyzvánění</string>
+  <string name="volume_keys_control_ring_stream_summary_off">Tlačítka hlasitosti ovládají hlasitost médií</string>
+  <string name="camera_double_tap_power_gesture_title">Fotoaparát dvojitým stisknutím vypínače</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="camera_double_tap_power_gesture_desc">Rychle otevře fotoaparát bez odemknutí obrazovky</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Smazat</string>
+  <string name="profile_action_none">Ponechat nezměněné</string>
+  <string name="profile_action_system">Systémové výchozí</string>
+  <string name="profile_action_disable">Vypnout</string>
+  <string name="profile_action_enable">Zapnout</string>
+  <string name="profile_trigger_a2dp_connect">Při připojení A2DP</string>
+  <string name="profile_trigger_a2dp_disconnect">Při odpojení A2DP</string>
+  <string name="profile_tabs_wifi">Wi\u2011Fi</string>
   <string name="profile_tabs_bluetooth">Zařízení Bluetooth</string>
+  <string name="profile_tabs_nfc">NFC</string>
+  <string name="profile_triggers_header">Události, které aktivují tento profil</string>
+  <string name="profile_setup_setup_triggers_title">Krok 1: přidat vynucenou změnu</string>
+  <string name="profile_setup_setup_triggers_title_config">Úprava vynucené změny: <xliff:g id="profile_name">%1$s</xliff:g></string>
+  <string name="profile_setup_actions_title">Krok 2: nastavit akce</string>
+  <string name="profile_setup_actions_title_config">Přenastavit akce</string>
+  <string name="wireless_networks_settings_title">Bezdrátová připojení a sítě</string>
   <!-- Profile triggers -->
+  <string name="no_bluetooth_triggers">Nejsou spárovaná žádná Bluetooth zařízení.\nPřed nastavením spouštěčů nejprve dotykem spárujte Bluetooth zařízení.</string>
+  <string name="no_wifi_triggers">Nejsou nastavený žádné přístupové body Wi\u2011Fi.\nPřed nastaveném spouštěčů se nejprve dotykem připojte k Wi\u2011Fi.</string>
   <!-- Profiles settings  -->
   <string name="profile_menu_delete">Smazat</string>
+  <string name="profile_menu_fill_from_state">Importovat aktuální nastavení zařízení</string>
+  <string name="profile_remove_current_profile">Nelze odstranit aktuální profil!</string>
+  <string name="profile_app_group_category_title">Potlačení upozornění</string>
+  <string name="profile_app_group_item_instructions">Přidat nebo odstranit skupiny</string>
+  <string name="profile_app_group_item_instructions_summary">Přidat nebo odstranit skupinu aplikací pro potlačení notifikací do tohoto profilu</string>
   <!-- Profile mode options. -->
   <string name="profile_entries_on">Zapnuto</string>
   <string name="profile_entries_off">Vypnuto</string>
+  <string name="profile_entries_no_override">Neměnit</string>
   <!-- Add Profile -->
+  <string name="profile_name_title">Název</string>
+  <string name="new_profile_name">&lt; nový profil &gt;</string>
   <!-- Rename Dialog  -->
+  <string name="rename_dialog_title">Přejmenovat</string>
+  <string name="rename_dialog_message">Zadejte nový název</string>
+  <string name="rename_dialog_hint">Zadejte název profilu</string>
   <!-- Reset Profiles -->
   <string name="profile_reset_title">Obnovit</string>
+  <string name="profile_reset_message">Odstranit všechny uživatelem vytvořené profily a skupiny aplikace a obnovit výchozí nastavení?</string>
   <!-- Delete confimation messages -->
+  <string name="profile_app_delete_confirm">Odebrat tuto aplikaci?</string>
   <!-- Profile network mode -->
+  <string name="profile_networkmode_2g">2G</string>
+  <string name="profile_networkmode_3g">3G</string>
+  <string name="profile_networkmode_4g">LTE</string>
+  <string name="profile_networkmode_2g3g">2G/3G</string>
+  <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
   <string name="connection_state_enabled">Povolit</string>
+  <string name="volume_override_summary">Nastavit na %1$s/%2$s</string>
+  <string name="profile_volume_override_checkbox_label">Měnit hlasitost</string>
   <!-- Menu item for managing profiles -->
+  <string name="profile_profiles_manage">Profily</string>
+  <string name="profile_profile_manage">Upravit profil</string>
+  <string name="profile_appgroups_manage">Skupiny aplikací</string>
   <!-- Profile settings screen, section header for settings related to notification profiles -->
   <!-- Profile Settings sound modes labels -->
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
   <!-- Title for application group setting screen -->
+  <string name="profile_appgroups_title">Skupiny aplikací</string>
   <string name="profile_applist_title">Aplikace</string>
+  <string name="profile_new_appgroup">Nová skupina aplikací</string>
+  <string name="profile_delete_appgroup">Odstranit tuto skupinu aplikací?</string>
+  <string name="profile_appgroup_name_prompt">Zadejte název nové skupiny aplikací</string>
+  <string name="profile_appgroup_name_title">Název</string>
+  <string name="duplicate_appgroup_name">Duplicitní název skupiny!</string>
   <!-- Add application dialog box title -->
   <string name="profile_choose_app">Zvolte aplikaci</string>
   <!-- Profiles - system settings -->
+  <string name="profile_system_settings_title">Systémové nastavení</string>
+  <string name="profile_lockmode_title">Režim zámku obrazovky</string>
+  <string name="profile_lockmode_policy_disabled_summary">Tato volba profilu je zakázána ve Správci zařízení</string>
+  <string name="profile_lockmode_insecure_summary">Neptat se na PIN nebo heslo</string>
+  <string name="profile_lockmode_disabled_summary">Zakázat zámek obrazovky</string>
   <!-- Connection override toggles (not all are used at this time ) -->
+  <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleBluetooth">Zařízení Bluetooth</string>
   <string name="toggleGPS">GPS</string>
+  <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_normal">Normální</string>
   <string name="ring_mode_vibrate">Vibrace</string>
@@ -227,12 +312,14 @@
   <!-- Status bar - Clock -->
   <string name="status_bar_am_pm_normal">Normální</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_text">Text</string>
   <!-- Status bar - Battery percentage -->
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Chráněné aplikace</string>
   <string name="protected_apps_manager_summary">Spravovat, které aplikace jsou skryté za bezpečným zámkem</string>
   <!-- Contributors cloud activity -->
+  <string name="contributors_cloud_fragment_title">Přispěvatelé</string>
   <!-- Display : Rotation  -->
   <string name="display_rotation_0_title">0°</string>
   <string name="display_rotation_90_title">90°</string>
