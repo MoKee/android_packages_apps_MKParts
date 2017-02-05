@@ -104,7 +104,7 @@
   <string name="led_notification_text">LED 灯被“设置”启用</string>
   <string name="notification_light_no_apps_summary">若要添加单个应用控制，请激活“%1$s”并按下菜单栏上的“\u002b”</string>
   <!-- LiveDisplay -->
-  <string name="live_display_summary">基于时间和环境条件优化您的屏幕，从而改善可读性，缓解眼睛疲劳</string>
+  <string name="live_display_summary">基于时间和环境条件优化您的屏幕，从而改善可读性，缓解眼睛疲劳。</string>
   <string name="live_display_mode">显示模式</string>
   <string name="live_display_color_temperature_title">色温</string>
   <string name="live_display_color_temperature_summary">白天：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
