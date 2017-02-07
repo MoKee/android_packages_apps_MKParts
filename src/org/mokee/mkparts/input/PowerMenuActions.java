@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2014-2015 The CyanogenMod Project
- * Copyright (C) 2014-2015 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +27,6 @@ import android.os.UserManager;
 import android.provider.Settings;
 import android.support.v7.preference.CheckBoxPreference;
 import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceScreen;
 
 import com.android.internal.util.cm.PowerMenuConstants;
 

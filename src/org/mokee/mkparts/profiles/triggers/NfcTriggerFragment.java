@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
  * Copyright (C) 2014 The MoKee Open Source Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,14 +19,11 @@ package org.mokee.mkparts.profiles.triggers;
 
 import android.app.Fragment;
 import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

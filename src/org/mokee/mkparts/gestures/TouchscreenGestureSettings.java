@@ -20,18 +20,14 @@ package org.mokee.mkparts.gestures;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceManager;
-import android.util.SparseIntArray;
 
 import mokee.hardware.MKHardwareManager;
 import mokee.hardware.TouchscreenGesture;
 
-import org.mokee.mkparts.gestures.TouchscreenGestureConstants;
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
 import org.mokee.mkparts.utils.ResourceUtils;
@@ -39,7 +35,6 @@ import org.mokee.mkparts.utils.ResourceUtils;
 import java.lang.System;
 
 public class TouchscreenGestureSettings extends SettingsPreferenceFragment {
-
     private static final String KEY_TOUCHSCREEN_GESTURE = "touchscreen_gesture";
     private static final String TOUCHSCREEN_GESTURE_TITLE = KEY_TOUCHSCREEN_GESTURE + "_%s_title";
 

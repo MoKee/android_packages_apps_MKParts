@@ -49,11 +49,7 @@ import android.view.KeyEvent;
 
 import com.android.internal.os.DeviceKeyHandler;
 
-import mokee.hardware.MKHardwareManager;
-import mokee.hardware.TouchscreenGesture;
 import mokee.providers.MKSettings;
-
-import org.mokee.mkparts.gestures.TouchscreenGestureConstants;
 
 public class KeyHandler implements DeviceKeyHandler {
 
