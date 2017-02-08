@@ -439,6 +439,7 @@
   <string name="weather_settings_no_services_prompt">Aucun fournisseur de services météorologiques installé</string>
   <string name="weather_settings_no_services_summary">Installer un fournisseur de services météorologiques pour recevoir des Bulletins météo</string>
   <string name="weather_settings_button">Paramètres du fournisseur</string>
+  <string name="weather_settings_activity_not_found">Impossible d\'accéder aux paramètres de ce fournisseur</string>
   <string name="weather_settings_add_weather_provider">Ajouter un fournisseur de météo</string>
   <string name="weather_settings_general_settings_title">Général</string>
   <string name="weather_settings_providers_title">Fournisseurs</string>
@@ -450,9 +451,29 @@
   <string name="status_bar_show_weather_summary">Afficher la température actuelle dans la barre d\'état</string>
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">Économiseur de batterie et performances</string>
+  <string name="perf_profile_settings_summary">Régler les fonctions d\'économie d\'énergie et les performances de l\'appareil</string>
   <string name="perf_profile_overview_summary">Profil actuel : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_category_title">Performances de l\'appareil</string>
+  <string name="perf_profile_title">Profil de performance : <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_fail_toast">Le profil de performance est actuellement indisponible</string>
+  <string name="power_save_category_title">Économie d\'énergie</string>
+  <string name="power_save_title">Économie d\'énergie avancée</string>
+  <string name="power_save_summary">Limiter les performances et l\'activité en l\'arrière-plan pour économiser de l\'énergie</string>
+  <string name="auto_power_save_title">Économie d\'énergie automatique</string>
+  <string name="auto_power_save_summary_on">Active le mode d\'économie d\'énergie lorsque la batterie atteint%s</string>
+  <string name="auto_power_save_summary_off">Ne pas activer automatiquement le mode d\'économie d\'énergie</string>
+  <string name="app_perf_profiles_title">Optimisation automatique</string>
+  <string name="app_perf_profiles_summary">Choisir automatiquement le profil de performance le plus approprié pour les différentes applications et scenarios d\'utilisation</string>
   <string name="auto_power_save_never">Jamais</string>
   <!-- Applications: Expanded desktop -->
+  <string name="expanded_desktop_settings_title">Bureau étendu</string>
+  <string name="expanded_desktop_settings_summary">Étendre l\'espace de bureau disponible en cachant la barre d\'état, barre de navigation, ou les deux</string>
+  <string name="expanded_desktop_options_title">Options de personnalisation</string>
+  <string name="expanded_desktop_style_title">Style de bureau étendu</string>
+  <string name="expanded_desktop_style_hide_nothing">Ne rien masquer</string>
+  <string name="expanded_desktop_style_hide_status">Masquer la barre d’État</string>
+  <string name="expanded_desktop_style_hide_navigation">Masquer la barre de navigation</string>
+  <string name="expanded_desktop_style_hide_both">Masquer les deux</string>
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_enabled_title">Activé</string>
   <string name="power_notifications_vibrate_title">Vibreur</string>
