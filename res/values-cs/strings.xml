@@ -185,9 +185,11 @@
   <string name="power_end_call_summary">Ukončit aktuální hovor stisknutím tlačítka napájení</string>
   <string name="swap_volume_buttons_title">Přeorientovat</string>
   <string name="swap_volume_buttons_summary">Výměna tlačítek hlasitosti při otočení obrazovky</string>
+  <string name="button_wake_title">Probudit zařízení</string>
   <string name="volume_answer_call_title">Přijmout hovor</string>
   <string name="volume_answer_call_summary">Přijmout příchozí hovor stisknutím tlačítka hlasitosti</string>
   <string name="home_answer_call_title">Přijmout hovor</string>
+  <string name="home_answer_call_summary">Přijmout příchozí hovor stisknutím tlačítka „Domů“</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Protisvětlo</string>
   <string name="button_backlight_enabled">Podsvícení tlačítek</string>
@@ -216,6 +218,12 @@
   <string name="power_menu_title">Nabídka tlačítka Vypnout</string>
   <string name="power_menu_reboot_title">Nabídka restartu</string>
   <string name="power_menu_screenshot_title">Snímek obrazovky</string>
+  <string name="power_menu_airplane_title">Režim „V letadle“</string>
+  <string name="power_menu_users_title">Přepnutí uživatele</string>
+  <string name="power_menu_settings_title">Zástupce nastavení</string>
+  <string name="power_menu_lockdown_title">Uzamčení zařízení</string>
+  <string name="power_menu_bug_report_title">Hlášení o chybě</string>
+  <string name="power_menu_sound_title">Panel hlasitosti</string>
   <string name="volume_keys_control_ring_stream_summary_on">Tlačítka hlasitosti ovládají hlasitost vyzvánění</string>
   <string name="volume_keys_control_ring_stream_summary_off">Tlačítka hlasitosti ovládají hlasitost médií</string>
   <string name="camera_double_tap_power_gesture_title">Fotoaparát dvojitým stisknutím vypínače</string>
@@ -241,8 +249,27 @@
   <!-- Profile triggers -->
   <string name="no_bluetooth_triggers">Nejsou spárovaná žádná Bluetooth zařízení.\nPřed nastavením spouštěčů nejprve dotykem spárujte Bluetooth zařízení.</string>
   <string name="no_wifi_triggers">Nejsou nastavený žádné přístupové body Wi\u2011Fi.\nPřed nastaveném spouštěčů se nejprve dotykem připojte k Wi\u2011Fi.</string>
+  <string name="profile_setup_setup_triggers_description">Vyberte události, které aktivují tento profil</string>
+  <string name="profile_setup_actions_description">Nyní proveďte nastavení toho, co se má stát, při aktivaci profilu</string>
   <!-- Profiles settings  -->
+  <string name="profiles_settings_title">Systémové profily</string>
+  <string name="profiles_add">Přidat</string>
   <string name="profile_menu_delete">Smazat</string>
+  <string name="profile_settings_title">Profil</string>
+  <string name="profile_empty_list_profiles_off">Pro použití a nastavení systémových profilů je potřeba tuto službu zapnout.</string>
+  <string name="profile_settings_summary_off">Profily jsou zakázány</string>
+  <string name="profile_trigger_configure">Upravit spouštěč</string>
+  <string name="profile_write_nfc_tag">Zapsat do NFC tagu</string>
+  <string name="profile_write_touch_tag">Pro zápis zvolte tag</string>
+  <string name="profile_write_success">Tag úspěšně zapsán</string>
+  <string name="profile_write_failed">Zápis tagu selhal!</string>
+  <string name="profile_selected">Profil vybrán: %1$s</string>
+  <string name="profile_nfc_text">Zapsání profilu do NFC tagu je možné po stisknutí příslušného tagu a zvolení profilu. Po druhém stisknutí bude nastaven předešlý profil.</string>
+  <string name="profile_unknown_nfc_tag">Neznámý profil</string>
+  <string name="profile_add_nfc_text">Tento NFC tag odkazuje na neznámý profil. Připojení tohoto NFC tagu k existujícího profilu umožní výběr profilu v budoucnosti.</string>
+  <string name="profile_select">Vyberte profil</string>
+  <string name="profile_remove_dialog_message">Odstranit profil %1$s?</string>
+  <string name="profile_populate_profile_from_state">Nastavit profil použitím aktuálního nastavení zařízení?</string>
   <string name="profile_menu_fill_from_state">Importovat aktuální nastavení zařízení</string>
   <string name="profile_remove_current_profile">Nelze odstranit aktuální profil!</string>
   <string name="profile_app_group_category_title">Potlačení upozornění</string>
@@ -297,35 +324,82 @@
   <string name="profile_lockmode_policy_disabled_summary">Tato volba profilu je zakázána ve Správci zařízení</string>
   <string name="profile_lockmode_insecure_summary">Neptat se na PIN nebo heslo</string>
   <string name="profile_lockmode_disabled_summary">Zakázat zámek obrazovky</string>
+  <string name="profile_airplanemode_title">Režim „V letadle“</string>
+  <string name="profile_brightness_title">Jas obrazovky</string>
+  <string name="profile_brightness_override_summary">Nastavit na %1$d%%</string>
+  <string name="profile_brightness_override_checkbox_label">Přepsat hodnotu jasu</string>
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleWifi">Wi\u2011Fi</string>
+  <string name="toggleWifiAp">Přenosný Wi\u2011Fi hotspot</string>
   <string name="toggleBluetooth">Zařízení Bluetooth</string>
   <string name="toggleGPS">GPS</string>
+  <string name="toggleData">Datové připojení</string>
+  <string name="toggleSync">Automatická synchronizace dat</string>
+  <string name="toggle2g3g4g">Upřednostňovaný typ sítě</string>
+  <string name="toggle2g3g4g_msim">Upřednostňovaný typ sítě (%1$s)</string>
   <string name="toggleNfc">NFC</string>
   <!-- Sound settings screen -->
+  <string name="ring_mode_title">Režim vyzvánění</string>
   <string name="ring_mode_normal">Normální</string>
   <string name="ring_mode_vibrate">Vibrace</string>
   <string name="ring_mode_mute">Ztlumit</string>
+  <string name="ring_volume_title">Hlasitost vyzvánění</string>
+  <string name="incoming_call_volume_title">Vyzvánění</string>
+  <string name="notification_volume_title">Oznámení</string>
   <string name="media_volume_title">Média</string>
+  <string name="alarm_volume_title">Budík</string>
+  <string name="doze_title">Ambientní displej</string>
   <!-- Status bar -->
+  <string name="status_bar_title">Stavová lišta</string>
   <string name="status_bar_quick_qs_pulldown_off">Vypnuto</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_am_pm_normal">Normální</string>
+  <string name="status_bar_am_pm_small">Malý</string>
+  <string name="status_bar_am_pm_hidden">Skryté</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_title">Styl ikony baterie</string>
+  <string name="status_bar_battery_style_icon_portrait">Ikona na výšku</string>
+  <string name="status_bar_battery_style_icon_landscape">Ikona na šířku</string>
+  <string name="status_bar_battery_style_circle">Kruh</string>
   <string name="status_bar_battery_style_text">Text</string>
+  <string name="status_bar_battery_style_hidden">Skryté</string>
   <!-- Status bar - Battery percentage -->
+  <string name="status_bar_battery_percentage_title">Procenta baterie</string>
+  <string name="status_bar_battery_percentage_default">Skryté</string>
+  <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
+  <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
   <!-- Status bar - icon blacklist -->
+  <string name="status_bar_icons_title">Ikony stavové lišty</string>
+  <string name="status_bar_icons_summary">Nastavení, které ikony jsou zobrazeny na stavové liště</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Chráněné aplikace</string>
   <string name="protected_apps_manager_summary">Spravovat, které aplikace jsou skryté za bezpečným zámkem</string>
   <!-- Contributors cloud activity -->
   <string name="contributors_cloud_fragment_title">Přispěvatelé</string>
+  <string name="contributors_cloud_loading_message">Načítání přispěvatelů\u2026</string>
+  <string name="contributors_cloud_failed_message">Nelze načíst data přispěvatelů</string>
+  <string name="contributor_info_menu">Informace přispěvatele</string>
+  <string name="contributor_info_msg">
+<![CDATA[<b>Jméno:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+<b>Přezdívka:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
+<b>Potvrzení:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
+  <string name="contributions_info_menu">Informace o přispěvatelích</string>
+  <string name="contributions_info_msg">
+<![CDATA[<b>Celkem přispěvovatelů:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+<b>Celkem příspěvků:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
+<b>Poslední aktualizace:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Display : Rotation  -->
+  <string name="accelerometer_title">Automatické otočení obrazovky</string>
+  <string name="display_rotation_title">Nastavení překlápění</string>
+  <string name="display_rotation_enabled">Je povolené automatické překlápění</string>
+  <string name="display_rotation_disabled">Překlápění je zakázané</string>
+  <string name="display_rotation_unit">stupně</string>
   <string name="display_rotation_0_title">0°</string>
   <string name="display_rotation_90_title">90°</string>
   <string name="display_rotation_180_title">180°</string>
   <string name="display_rotation_270_title">270°</string>
   <!-- Weather -->
+  <string name="weather_settings_general_settings_title">Obecné</string>
   <string name="status_bar_show_weather_title">Zobrazit počasí</string>
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_summary">Nastavení jednotlivých funkcí pro úsporu energie a výkon zařízení</string>

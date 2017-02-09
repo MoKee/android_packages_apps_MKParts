@@ -474,10 +474,44 @@
   <string name="expanded_desktop_style_hide_status">Masquer la barre d’État</string>
   <string name="expanded_desktop_style_hide_navigation">Masquer la barre de navigation</string>
   <string name="expanded_desktop_style_hide_both">Masquer les deux</string>
+  <string name="expanded_desktop_nothing_to_show_text">Mettre sur off pour personnaliser le bureau étendu pour chaque application</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Tonalité de charge</string>
   <string name="charging_sounds_enabled_title">Activé</string>
+  <string name="charging_sounds_enabled_summary">Émettre un son lors de la connexion ou de la déconnexion d\'une source d\'alimentation</string>
   <string name="power_notifications_vibrate_title">Vibreur</string>
+  <string name="charging_sounds_ringtone_title">Son de notification</string>
   <string name="charging_sounds_ringtone_silent">Silencieux</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Gestes tactiles</string>
+  <string name="touchscreen_gesture_settings_summary">Dessiner différents gestes sur l\'écran tactile pour créer des actions rapides</string>
   <string name="touchscreen_gestures_haptic_feedback_title">Retour tactile</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Vibrer quand un geste tactile est détecté</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Glisser vers le bas avec deux doigts</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Glissez vers le haut avec un doigt</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Glisser vers le bas avec un doigt</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Glisser vers la gauche avec un doigt</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Glisser vers la droite avec un doigt</string>
+  <string name="touchscreen_gesture_up_arrow_title">Dessiner un « Λ »</string>
+  <string name="touchscreen_gesture_down_arrow_title">Dessiner un « V »</string>
+  <string name="touchscreen_gesture_left_arrow_title">Dessiner un « &lt; »</string>
+  <string name="touchscreen_gesture_right_arrow_title">Dessiner un « &gt; »</string>
+  <string name="touchscreen_gesture_letter_c_title">Dessiner la lettre « C »</string>
+  <string name="touchscreen_gesture_letter_e_title">Dessiner la lettre « e »</string>
+  <string name="touchscreen_gesture_letter_o_title">Dessiner la lettre « O »</string>
+  <string name="touchscreen_gesture_letter_m_title">Dessiner la lettre « M »</string>
+  <string name="touchscreen_gesture_letter_s_title">Dessiner la lettre « S »</string>
+  <string name="touchscreen_gesture_letter_w_title">Dessiner la lettre « W »</string>
+  <string name="touchscreen_gesture_letter_z_title">Dessiner la lettre « Z »</string>
+  <string name="touchscreen_gesture_action_dialog_title">Gestures</string>
+  <string name="touchscreen_gesture_action_do_nothing">Ne rien faire</string>
+  <string name="touchscreen_gesture_action_flashlight">Activer ou désactiver la lampe de poche</string>
+  <string name="touchscreen_gesture_action_camera">Ouvrir l\'appareil photo</string>
+  <string name="touchscreen_gesture_action_browser">Ouvrir le navigateur</string>
+  <string name="touchscreen_gesture_action_dialer">Ouvrir le pavé numérique</string>
+  <string name="touchscreen_gesture_action_email">Consulter vos courriels</string>
+  <string name="touchscreen_gesture_action_messages">Consulter vos messages</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Lecture/pause de la musique</string>
+  <string name="touchscreen_gesture_action_previous_track">Piste de musique précédente</string>
+  <string name="touchscreen_gesture_action_next_track">Piste de musique suivante</string>
 </resources>

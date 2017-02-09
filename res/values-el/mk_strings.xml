@@ -30,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">Εισερχόμενα</string>
   <string name="status_bar_network_traffic_style_all">Εξερχόμενων και εισερχόμενων</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">Παρατεταμένη πίεση στο πλήκτρο ισχύος για φακό</string>
+  <string name="torch_long_press_power_gesture_desc">Ενεργοποιήστε το φακό πατώντας παρατεταμένα το πλήκτρο ισχύος όταν η οθόνη είναι ανενεργή</string>
 </resources>

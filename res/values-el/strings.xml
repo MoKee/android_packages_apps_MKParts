@@ -22,9 +22,13 @@
   <string name="dlg_ok">ΟΚ</string>
   <string name="cancel">Ακύρωση</string>
   <string name="add">Προσθήκη</string>
+  <string name="choose_app">Επιλογή εφαρμογής</string>
   <string name="reset">Επαναφορά</string>
+  <string name="advanced">Για προχωρημένους</string>
   <string name="settings">Ρυθμίσεις</string>
   <string name="name">Όνομα: </string>
+  <string name="back">Πίσω</string>
+  <string name="finish">Τέλος</string>
   <string name="next">Επόμενο</string>
   <string name="on">Ενεργοποιημ.</string>
   <string name="off">ανενεργό</string>
@@ -32,18 +36,22 @@
   <string name="no">Όχι</string>
   <string name="search">Αναζήτηση</string>
   <string name="disabled">Απενεργοποιημένο</string>
+  <string name="enabled">Ενεργοποιημένο</string>
   <!-- Privacy Settings Header item -->
   <string name="privacy_settings_title">Ιδιωτικότητα</string>
   <!-- Privacy Guard -->
   <string name="privacy_guard_help_title">Βοήθεια</string>
   <string name="privacy_guard_reset_title">Επαναφορά</string>
   <string name="privacy_guard_manager_show_system_apps">Εμφάνιση ενσωματωμένων εφαρμογών</string>
+  <string name="privacy_guard_advanced_settings_title">Για προχωρημένους</string>
   <!-- Notification light dialogs -->
   <string name="dialog_delete_title">Διαγραφή</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_speed_fast">Γρήγορα</string>
   <!-- Battery light settings -->
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_general_title">Γενικά</string>
+  <string name="notification_light_advanced_title">Για προχωρημένους</string>
   <string name="notification_light_phonelist_title">Τηλέφωνο</string>
   <string name="notification_light_default_value">Προεπιλογή</string>
   <!-- Lights settings, LED notification -->
@@ -61,7 +69,7 @@
   <string name="adj_contrast_title">Αντίθεση</string>
   <!-- Button settings -->
   <string name="hardware_keys_menu_key_title">Κουμπί μενού</string>
-  <string name="hardware_keys_action_launch_camera">Εκκίνηση φωτογρ. μηχανής</string>
+  <string name="hardware_keys_action_launch_camera">Εκκίνηση κάμερας</string>
   <string name="camera_launch_title">Εκκίνηση φωτογρ. μηχανής</string>
   <string name="volbtn_cursor_control_off">Απενεργοποιημένο</string>
   <string name="volume_answer_call_title">Απάντηση κλήσης</string>
@@ -101,6 +109,7 @@
   <!-- Title for application group setting screen -->
   <string name="profile_appgroup_name_title">Όνομα: </string>
   <!-- Add application dialog box title -->
+  <string name="profile_choose_app">Επιλογή εφαρμογής</string>
   <!-- Profiles - system settings -->
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleBluetooth">Bluetooth</string>
