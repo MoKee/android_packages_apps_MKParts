@@ -375,8 +375,6 @@
   <string name="status_bar_notif_count_summary">Wyświetla licznik oczekujących powiadomień</string>
   <string name="status_bar_quick_qs_pulldown_title">Szybkie rozwijanie</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s krawędź ekranu rozwija szybkie ustawienia</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Po lewej</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Po prawej</string>
   <string name="status_bar_quick_qs_pulldown_off">Wyłącz</string>
   <string name="status_bar_quick_qs_pulldown_left">Po lewej</string>
   <string name="status_bar_quick_qs_pulldown_right">Po prawej</string>

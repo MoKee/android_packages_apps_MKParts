@@ -375,8 +375,6 @@
   <string name="status_bar_notif_count_summary">Tampilkan jumlah pemberitahuan yang tertunda</string>
   <string name="status_bar_quick_qs_pulldown_title">Keruntuhan cepat</string>
   <string name="status_bar_quick_qs_pulldown_summary">Menarik %1$s tepi status bar ke bawah untuk Pengaturan Cepat</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Kiri</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Kanan</string>
   <string name="status_bar_quick_qs_pulldown_off">Mati</string>
   <string name="status_bar_quick_qs_pulldown_left">Kiri</string>
   <string name="status_bar_quick_qs_pulldown_right">Kanan</string>

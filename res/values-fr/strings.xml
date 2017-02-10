@@ -227,7 +227,7 @@
   <string name="power_menu_bug_report_disabled">Le rapport de bug est désactivé dans les paramètres de développement</string>
   <string name="volume_keys_control_ring_stream_title">Contrôler le volume de la sonnerie</string>
   <string name="volume_keys_control_ring_stream_summary_on">Contrôler la puissance de la sonnerie avec les boutons de volume</string>
-  <string name="volume_keys_control_ring_stream_summary_off">Contrôler le son des medias avec les bouton de volume</string>
+  <string name="volume_keys_control_ring_stream_summary_off">Contrôler le son des médias avec les boutons de volume</string>
   <string name="camera_double_tap_power_gesture_title">Appuyer deux fois sur bouton Marche/Arrêt pour lancer l\'appareil photo</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Ouvrir rapidement l\'appareil photo sans déverrouiller l\'écran</string>
@@ -348,7 +348,7 @@
   <string name="profile_brightness_override_checkbox_label">Modifier la luminosité</string>
   <!-- Connection override toggles (not all are used at this time ) -->
   <string name="toggleWifi">Wi-Fi</string>
-  <string name="toggleWifiAp">Prijenosni Wi-Fi Hotspot</string>
+  <string name="toggleWifiAp">Point d\'accès Wi\u2011Fi</string>
   <string name="toggleBluetooth">Bluetooth</string>
   <string name="toggleGPS">GPS</string>
   <string name="toggleData">Connexion de données</string>
@@ -375,8 +375,6 @@
   <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
   <string name="status_bar_quick_qs_pulldown_title">Ouverture rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary">Tirer le côté %1$s pour ouvrir la configuration rapide</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Gauche</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Droite</string>
   <string name="status_bar_quick_qs_pulldown_off">Désactivé</string>
   <string name="status_bar_quick_qs_pulldown_left">Gauche</string>
   <string name="status_bar_quick_qs_pulldown_right">Droite</string>

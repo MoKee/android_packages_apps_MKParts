@@ -375,8 +375,6 @@
   <string name="status_bar_notif_count_summary">显示未读通知的数量</string>
   <string name="status_bar_quick_qs_pulldown_title">快速下拉</string>
   <string name="status_bar_quick_qs_pulldown_summary">从状态栏的%1$s边缘下拉开启快速设置面板</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">左侧</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">右侧</string>
   <string name="status_bar_quick_qs_pulldown_off">关闭</string>
   <string name="status_bar_quick_qs_pulldown_left">左侧</string>
   <string name="status_bar_quick_qs_pulldown_right">右侧</string>
@@ -501,6 +499,7 @@
   <string name="touchscreen_gesture_letter_o_title">绘制字母 “O”</string>
   <string name="touchscreen_gesture_letter_m_title">绘制字母 “M”</string>
   <string name="touchscreen_gesture_letter_s_title">绘制字母 “S”</string>
+  <string name="touchscreen_gesture_letter_v_title">绘制字母 “V”</string>
   <string name="touchscreen_gesture_letter_w_title">绘制字母 “W”</string>
   <string name="touchscreen_gesture_letter_z_title">绘制字母 “Z”</string>
   <string name="touchscreen_gesture_action_dialog_title">手势操作</string>

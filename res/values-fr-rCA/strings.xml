@@ -72,6 +72,7 @@
   <string name="pulse_length_long">Longue</string>
   <string name="pulse_length_very_long">Très long</string>
   <string name="pulse_speed_very_fast">Très rapide</string>
+  <string name="pulse_speed_fast">Rapide</string>
   <string name="pulse_speed_normal">Standard</string>
   <string name="pulse_speed_slow">Lente</string>
   <string name="pulse_speed_very_slow">Très lente</string>
@@ -374,8 +375,6 @@
   <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
   <string name="status_bar_quick_qs_pulldown_title">Ouverture rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary">Tirer le côté %1$s pour ouvrir la configuration rapide</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Gauche</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Droite</string>
   <string name="status_bar_quick_qs_pulldown_off">Désactivé</string>
   <string name="status_bar_quick_qs_pulldown_left">Gauche</string>
   <string name="status_bar_quick_qs_pulldown_right">Droite</string>
