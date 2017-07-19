@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application name -->
+  <string name="mkparts_title">MoKee 설정</string>
   <!-- Height of navigation bar buttons -->
   <string name="navigation_bar_height">버튼 높이</string>
   <string name="navigation_bar_height_48">48dp (디폴트)</string>
@@ -29,4 +30,6 @@
   <string name="status_bar_network_traffic_style_down">수신</string>
   <string name="status_bar_network_traffic_style_all">발신 및 수신</string>
   <!-- Long-press power for torch -->
+  <string name="torch_long_press_power_gesture_title">전원 버튼을 길게 눌러 손전등 사용</string>
+  <string name="torch_long_press_power_gesture_desc">화면이 꺼져 있을 때 전원 버튼을 길게 눌러 손전등 켜기 활성화</string>
 </resources>
