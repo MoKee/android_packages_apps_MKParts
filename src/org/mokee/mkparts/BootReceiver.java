@@ -24,6 +24,7 @@ import android.content.SharedPreferences;
 import android.support.v7.preference.PreferenceManager;
 
 import org.mokee.mkparts.contributors.ContributorsCloudFragment;
+import org.mokee.mkparts.fingerprint.FingerprintShortcutUtils;
 /*
 import org.mokee.mkparts.gestures.TouchscreenGestureSettings;
 import org.mokee.mkparts.input.ButtonSettings;
@@ -51,6 +52,8 @@ public class BootReceiver extends BroadcastReceiver {
 
         // Extract the contributors database
         ContributorsCloudFragment.extractContributorsCloudDatabase(ctx);
+
+        FingerprintShortcutUtils.restoreState(ctx);
     }
 
     /*
