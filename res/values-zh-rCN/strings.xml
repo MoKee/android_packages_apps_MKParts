@@ -541,4 +541,7 @@
   <string name="touchscreen_gesture_action_play_pause_music">播放/暂停音乐</string>
   <string name="touchscreen_gesture_action_previous_track">切换到前一曲目</string>
   <string name="touchscreen_gesture_action_next_track">切换到下一曲目</string>
+  <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">指纹快捷方式</string>
+  <string name="fingerprint_shortcut_not_specified">未指定</string>
 </resources>
