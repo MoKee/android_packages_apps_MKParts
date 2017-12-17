@@ -229,6 +229,8 @@
             <meta-data
                 android:name="org.cyanogenmod.settings.summary.key"
                 android:value="fingerprint_shortcut_settings" />
+            <meta-data android:name="com.android.settings.require_feature"
+                android:value="android.hardware.fingerprint" />
         </activity-alias>
 
         <!-- MOKEE ANONYMOUS STATISTICS START -->
