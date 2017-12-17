@@ -21,9 +21,12 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.ComponentName;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.Bundle;
+import android.os.UserHandle;
+import android.os.UserManager;
 import android.support.v14.preference.PreferenceFragment;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
@@ -34,6 +37,7 @@ import android.widget.Button;
 
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
+import org.mokee.mkparts.fingerprint.FingerprintShortcutSettings;
 import org.mokee.mkparts.profiles.NFCProfileTagCallback;
 import org.mokee.mkparts.widget.SwitchBar;
 import org.mokee.internal.mkparts.PartInfo;
@@ -119,6 +123,26 @@ public class PartsActivity extends SettingsDrawerActivity implements
         switchToFragment(fragmentClass, initialArgs, -1, mInitialTitle);
 
         getActionBar().setDisplayHomeAsUpEnabled(mHomeAsUp);
+    }
+
+    private void setTileEnabled(ComponentName component, boolean enabled, boolean isAdmin,
+                                PackageManager pm) {
+        if (UserHandle.MU_ENABLED && !isAdmin && getPackageName().equals(component.getPackageName())) {
+            enabled = false;
+        }
+        setTileEnabled(component, enabled);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        PackageManager pm = getPackageManager();
+        final UserManager um = UserManager.get(this);
+        final boolean isAdmin = um.isAdminUser();
+
+        String packageName = getPackageName();
+        setTileEnabled(new ComponentName(packageName, FingerprintShortcutSettings.class.getName()),
+                pm.hasSystemFeature(PackageManager.FEATURE_FINGERPRINT), isAdmin, pm);
     }
 
     @Override
