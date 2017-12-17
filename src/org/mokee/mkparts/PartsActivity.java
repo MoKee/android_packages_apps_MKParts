@@ -21,6 +21,7 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.ComponentName;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.Bundle;
@@ -34,6 +35,7 @@ import android.widget.Button;
 
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
+import org.mokee.mkparts.fingerprint.FingerprintShortcutSettings;
 import org.mokee.mkparts.profiles.NFCProfileTagCallback;
 import org.mokee.mkparts.widget.SwitchBar;
 import org.mokee.internal.mkparts.PartInfo;
@@ -119,6 +121,14 @@ public class PartsActivity extends SettingsDrawerActivity implements
         switchToFragment(fragmentClass, initialArgs, -1, mInitialTitle);
 
         getActionBar().setDisplayHomeAsUpEnabled(mHomeAsUp);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        PackageManager pm = getPackageManager();
+        setTileEnabled(new ComponentName(getPackageName(), FingerprintShortcutSettings.class.getName()),
+        pm.hasSystemFeature(PackageManager.FEATURE_FINGERPRINT));
     }
 
     @Override
