@@ -53,5 +53,6 @@
     <string name="fingerprint_shortcut_delete">Delete</string>
     <string name="fingerprint_shortcut_editer">Set fingerprint shortcut</string>
     <string name="fingerprint_shortcut_manage">Manage fingerprints</string>
+    <string name="fingerprint_shortcut_show_feedback">Show feedback on start</string>
 
 </resources>

@@ -30,6 +30,11 @@
                 android:targetClass="com.android.settings.Settings$SecuritySettingsActivity" />
         </Preference>
 
+        <mokee.preference.MKSecureSettingSwitchPreference
+            android:key="fingerprint_shortcut_show_feedback"
+            android:title="@string/fingerprint_shortcut_show_feedback"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
