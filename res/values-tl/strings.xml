@@ -77,6 +77,7 @@
   <string name="pulse_speed_slow">Mabagal</string>
   <string name="pulse_speed_very_slow">Napakabagal</string>
   <!-- Common light settings strings -->
+  <string name="light_brightness_normal">Karaniwan</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">Liwanag ng baterya</string>
   <string name="battery_low_pulse_title">Pulse kung mababa ang baterya</string>
@@ -359,6 +360,7 @@
   <string name="toggle2g3g4g_msim">Mas gustong uri ng network (%1$s)</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Naka-ring na mode</string>
+  <string name="ring_mode_normal">Karaniwan</string>
   <string name="ring_mode_mute">I-mute</string>
   <string name="ring_volume_title">Volyum ng ringer</string>
   <string name="media_volume_title">Media</string>
@@ -381,6 +383,7 @@
   <string name="status_bar_clock_position_title">Posisyon ng orasan</string>
   <string name="status_bar_clock_position_right">Kanan</string>
   <string name="status_bar_clock_position_left">Kaliwa</string>
+  <string name="status_bar_am_pm_normal">Karaniwan</string>
   <!-- Status bar - Battery -->
   <string name="status_bar_battery_style_title">Estilo ng estado ng baterya</string>
   <string name="status_bar_battery_style_circle">Bilog</string>

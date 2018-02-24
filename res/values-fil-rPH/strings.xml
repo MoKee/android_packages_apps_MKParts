@@ -36,6 +36,7 @@
   <string name="yes">Oo</string>
   <string name="no">Hindi</string>
   <string name="search">Hanapin</string>
+  <string name="disabled">Huwag paganahin</string>
   <string name="enabled">Pinagana</string>
   <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
