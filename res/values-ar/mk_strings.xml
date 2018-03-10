@@ -19,7 +19,11 @@
   <!-- Application name -->
   <string name="mkparts_title">إعدادات موكي</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">اختصارات بصمات الأصابع</string>
+  <string name="fingerprint_shortcut_not_specified">غير مُحدد</string>
   <string name="fingerprint_shortcut_ok">تم</string>
   <string name="fingerprint_shortcut_edit">تعديل</string>
   <string name="fingerprint_shortcut_delete">حذف</string>
+  <string name="fingerprint_shortcut_editer">اختصارات بصمات الأصابع</string>
+  <string name="fingerprint_shortcut_manage">إدارة بصمات الإصبع</string>
 </resources>

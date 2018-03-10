@@ -25,4 +25,5 @@
   <string name="fingerprint_shortcut_edit">Editar</string>
   <string name="fingerprint_shortcut_delete">Excluir</string>
   <string name="fingerprint_shortcut_editer">Definir o atalho de impressão digital</string>
+  <string name="fingerprint_shortcut_manage">Gerenciar impressões digitais</string>
 </resources>

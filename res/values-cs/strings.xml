@@ -204,6 +204,7 @@
   <!-- Key backlight -->
   <string name="button_backlight_title">Protisvětlo</string>
   <string name="button_backlight_enabled">Podsvícení tlačítek</string>
+  <string name="button_backlight_only_when_pressed_title">Podsvícení tlačítek pouze při stisknutí</string>
   <string name="keyboard_backlight_enabled">Podsvícení klávesnice</string>
   <string name="button_backlight_seekbar_title">Podsvícení tlačítek</string>
   <string name="keyboard_backlight_seekbar_title">Podsvícení klávesnice</string>

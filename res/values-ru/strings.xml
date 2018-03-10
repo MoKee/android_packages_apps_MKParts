@@ -205,6 +205,7 @@
   <!-- Key backlight -->
   <string name="button_backlight_title">Подсветка</string>
   <string name="button_backlight_enabled">Подсветка кнопок</string>
+  <string name="button_backlight_only_when_pressed_title">Подсветка кнопок только при касании</string>
   <string name="keyboard_backlight_enabled">Подсветка клавиатуры</string>
   <string name="button_backlight_seekbar_title">Яркость кнопок</string>
   <string name="keyboard_backlight_seekbar_title">Яркость клавиатуры</string>
@@ -272,7 +273,7 @@
   <string name="profile_setup_setup_triggers_description">Укажите условия, при которых будет включаться данный профиль</string>
   <string name="profile_setup_actions_description">Теперь можно настроить, что должно происходить при активации профиля</string>
   <!-- Profiles settings  -->
-  <string name="profiles_settings_title">Системные профили</string>
+  <string name="profiles_settings_title">Профили системы</string>
   <string name="profiles_add">Добавить</string>
   <string name="profile_menu_delete">Удалить</string>
   <string name="profile_settings_title">Профиль</string>
@@ -573,10 +574,10 @@
   <string name="style_summary">Выбор системных цветов</string>
   <string name="style_global_title">Стиль</string>
   <string name="style_global_entry_automatic">Автоматически (обои)</string>
-  <string name="style_global_entry_light">Светлая</string>
-  <string name="style_global_entry_dark">Тёмная</string>
+  <string name="style_global_entry_light">Светлый</string>
+  <string name="style_global_entry_dark">Тёмный</string>
   <string name="style_global_entry_time">Автоматически (время суток)</string>
-  <string name="style_accent_title">Цветной оттенок</string>
+  <string name="style_accent_title">Цветовой оттенок</string>
   <string name="style_accent_configuration_not_supported">Нынешний оттенок несовместим с выбранным стилем. Чтобы продолжить, вы должны выбрать другой оттенок, вы хотите продолжить?</string>
   <string name="style_accent_configuration_positive">Продолжить</string>
   <string name="style_automagic_title">Automagic</string>

@@ -569,9 +569,19 @@
   <string name="touchscreen_gesture_action_volume_up">Aumentar o volume de mídia</string>
   <!-- Berry Lite -->
   <string name="style_title">Estilo</string>
+  <string name="style_summary">Escolher as cores do sistema</string>
   <string name="style_global_title">Estilo</string>
+  <string name="style_global_entry_automatic">Automático (baseado no papel de parede)</string>
   <string name="style_global_entry_light">Claro</string>
   <string name="style_global_entry_dark">Escuro</string>
+  <string name="style_global_entry_time">Automático (baseado na hora do dia)</string>
+  <string name="style_accent_title">Cor dos detalhes</string>
+  <string name="style_accent_configuration_not_supported">A cor do realce atual não é compatível com o estilo selecionado. Para continuar, é preciso escolher outra cor. Deseja continuar?</string>
+  <string name="style_accent_configuration_positive">Continuar</string>
+  <string name="style_automagic_title">Automagic</string>
+  <string name="style_automagic_description">Fazer com que o estilo combine com o papel de parede</string>
+  <string name="style_automagic_dialog_content">Estilo sugerido: <b>%1$s</b> com <b>%2$s</b> como cor de realce.\nDeseja aplicá-lo?</string>
   <string name="style_automagic_dialog_positive">Aplicar</string>
   <string name="style_accent_default_name">Padrão</string>
+  <string name="style_permission_error">É necessária a permissão de acesso ao armazenamento para analisar o seu papel de parede. Por favor, conceda a permissão para usar este recurso.</string>
 </resources>
