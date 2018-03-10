@@ -514,6 +514,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">터치스크린 제스처를 감지하면 진동 울림</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">두 손가락으로 쓸어 내리기</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">한 손가락으로 쓸어 올리기</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">홈 버튼에서 위로 밀기</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">한 손가락으로 쓸어 내리기</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">한 손가락으로 왼쪽으로 밀기</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">한 손가락으로 오른쪽으로 밀기</string>

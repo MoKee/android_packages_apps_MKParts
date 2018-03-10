@@ -33,7 +33,10 @@
   <string name="torch_long_press_power_gesture_title">اضغط زر الطاقة مطولا لتشغيل الاضاءة الخلفية</string>
   <string name="torch_long_press_power_gesture_desc">تشغيل المصباح بضغطة طويلة على زر الطاقة والشاشة مغلقة</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">اختصارات بصمات الأصابع</string>
+  <string name="fingerprint_shortcut_not_specified">غير مُحدد</string>
   <string name="fingerprint_shortcut_ok">تم</string>
   <string name="fingerprint_shortcut_edit">تعديل</string>
   <string name="fingerprint_shortcut_delete">حذف</string>
+  <string name="fingerprint_shortcut_editer">اختصارات بصمات الأصابع</string>
 </resources>

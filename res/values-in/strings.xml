@@ -59,7 +59,7 @@
   <!-- Notification light dialogs -->
   <string name="edit_light_settings">Ubah setelan lampu</string>
   <string name="pulse_speed_title">Panjang dan kecepatan kedipan</string>
-  <string name="default_time">Keadaan normal</string>
+  <string name="default_time">Normal</string>
   <string name="custom_time">Khusus</string>
   <string name="dialog_delete_title">Hapus</string>
   <string name="dialog_delete_message">Hapus item yang dipilih?</string>
@@ -68,12 +68,12 @@
   <string name="pulse_length_always_on">Selalu hidup</string>
   <string name="pulse_length_very_short">Sangat singkat</string>
   <string name="pulse_length_short">Singkat</string>
-  <string name="pulse_length_normal">Keadaan normal</string>
+  <string name="pulse_length_normal">Normal</string>
   <string name="pulse_length_long">Lama</string>
   <string name="pulse_length_very_long">Sangat lama</string>
   <string name="pulse_speed_very_fast">Sangat cepat</string>
   <string name="pulse_speed_fast">Cepat</string>
-  <string name="pulse_speed_normal">Keadaan normal</string>
+  <string name="pulse_speed_normal">Normal</string>
   <string name="pulse_speed_slow">Lambat</string>
   <string name="pulse_speed_very_slow">Sangat lambat</string>
   <!-- Battery light settings -->
@@ -368,7 +368,7 @@
   <string name="toggleNfc">Komunikasi jarak dekat</string>
   <!-- Sound settings screen -->
   <string name="ring_mode_title">Mode dering</string>
-  <string name="ring_mode_normal">Keadaan normal</string>
+  <string name="ring_mode_normal">Normal</string>
   <string name="ring_mode_vibrate">Getar</string>
   <string name="ring_mode_mute">Hening</string>
   <string name="ring_volume_title">Volume dering</string>
@@ -402,7 +402,7 @@
   <string name="status_bar_clock_position_center">Tengah</string>
   <string name="status_bar_am_pm_title">Gaya AM/PM</string>
   <string name="status_bar_am_pm_info">24-jam diaktifkan</string>
-  <string name="status_bar_am_pm_normal">Keadaan normal</string>
+  <string name="status_bar_am_pm_normal">Normal</string>
   <string name="status_bar_am_pm_small">Kecil</string>
   <string name="status_bar_am_pm_hidden">Tersembunyi</string>
   <!-- Status bar - Battery -->
@@ -513,6 +513,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Bergetar ketika ada gerakan layar sentuh terdeteksi</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Usap ke bawah dengan dua jari</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Usap ke atas dengan satu jari</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Usap ke atas dari tombol home</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Usap ke bawah dengan satu jari</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Usap ke kiri dengan satu jari</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Usap ke kanan dengan satu jari</string>

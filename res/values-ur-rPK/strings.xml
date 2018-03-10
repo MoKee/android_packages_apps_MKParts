@@ -21,7 +21,10 @@
   <string name="reset">دوبارہ ترتیب دیں</string>
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
+  <string name="privacy_guard_dlg_text">جب رازداری کا گارڈ فعال ہوجاتا ہے تو، ایپ ذاتی ڈیٹا تک رسائی حاصل نہیں کرسکتا، جیسے رابطے، پیغامات یا کال لاگ ان. شراکت | درخواست کے حوالے.</string>
+  <string name="privacy_guard_dlg_system_app_text">بلٹ ان ایپ کے لئے پرائیویسی گارڈ کو فعال کرتے وقت، ایپ تک رسائی حاصل کرنے یا ذاتی ڈیٹا فراہم کرنے کے قابل نہیں ہو گا. اس سے دوسرے ایپس کو غلطی کا باعث بن سکتا ہے.</string>
   <string name="privacy_guard_reset_title">دوبارہ ترتیب دیں</string>
+  <string name="privacy_guard_help_text">اس اسکرین میں آپ اس بات کا انتخاب کرسکتے ہیں کہ کون سا اطلاقات رازداری کے تحفظ کو صرف ان پر ٹپ کر کے لئے فعال ہونا چاہئے. منتخب کردہ ایپس آپ کے ذاتی ڈیٹا جیسے رابطے، پیغامات یا کال لاگ ان تک رسائی حاصل نہیں کرسکیں گے. اپلی کیشن کا اندراج طویل عرصہ تک اپنی ایپ کی تفصیلات اسکرین کو کھولتا ہے.\n\n بلٹ میں اطلاقات ڈیفالٹ کی طرف سے نہیں دکھایا جاتا ہے لیکن متعلقہ مینو اختیار کو منتخب کرکے ظاہر کیا جاسکتا ہے.</string>
   <!-- Notification light dialogs -->
   <string name="custom_time">حسب ضرورت</string>
   <!-- Values for the notification light pulse spinners -->
@@ -29,6 +32,10 @@
   <!-- Lights settings screen, notification light settings -->
   <!-- Lights settings, LED notification -->
   <!-- LiveDisplay -->
+  <string name="live_display_summary">پڑھنے کی صلاحیت کو بہتر بنانے اور آنکھ کی کمی کو کم کرنے کے لئے دن اور ماحول کے حالات پر مبنی آپ کی اسکرین کو بہتر بنائیں</string>
+  <string name="live_display_outdoor_mode_summary">روشن سورج کی روشنی میں خود بخود چمکتا اور سنتریت میں اضافہ</string>
+  <string name="live_display_low_power_summary">بغاوت کے بغیر سب سے کم بجلی کی کھپت کے لئے ڈسپلے کو ایڈجسٹ کریں</string>
+  <string name="live_display_enhance_color_summary">گوشت ٹونز، انداز، اور دیگر تصاویر کا رنگ وابرن بہتر بنائیں</string>
   <string name="color_red_title">سرخ</string>
   <string name="color_green_title">سبز</string>
   <string name="color_blue_title">نیلا</string>
@@ -37,19 +44,31 @@
   <string name="adj_saturation_title">سیچوریشن</string>
   <string name="adj_contrast_title">تضاد</string>
   <!-- Button settings -->
+  <string name="home_answer_call_summary">گھر والے بٹن پر دباؤ کرکے آنے والی کالوں کا جواب دیں</string>
   <!-- Key backlight -->
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_summary">اسکرین نیویگیشن بار کو فعال کریں اور ہارڈویئر کے بٹن کو غیر فعال کریں</string>
   <!-- Navigation Bar -->
+  <string name="navigation_bar_left_summary">اسکرین کے بائیں جانب پر زمین کی تزئین کی موڈ میں نیویگیشن بار رکھیں</string>
+  <string name="navigation_bar_arrow_keys_summary">لکھتے وقت بائیں اور دائیں کرسر بٹن دکھائیں. اوورائڈس IME سوئچر.</string>
   <!-- Power menu -->
+  <string name="power_menu_bug_report_disabled">ترقی کی ترتیبات میں بگ رپورٹنگ غیر فعال ہے</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="camera_double_tap_power_gesture_desc">آپ کی اسکرین کو غیر فعال کرنے کے بغیر جلدی کیمرے کھولیں</string>
   <!-- Profiles -->
   <!-- Profile triggers -->
+  <string name="no_bluetooth_triggers">کوئی بلوٹوت آلات شامل نہیں ہیں.\n ٹرگروں کو ترتیب دینے سے پہلے بلوٹوت آلہ جوڑنے کیلئے ٹیپ کریں.</string>
+  <string name="profile_setup_actions_description">جب پروفائل فعال ہوجاتا ہے تو اب کیا طے کریں</string>
   <!-- Profiles settings  -->
+  <string name="profile_nfc_text">این ایف سی ٹیگ پر پروفائل لکھنا پروفائل کا انتخاب کرنے کیلئے ٹیگ ٹیپ کرنے کی اجازت دیتا ہے. ایک بار پھر دوسری بار تھپپیٹ پہلے منتخب شدہ پروفائل کا انتخاب کریں گے.</string>
+  <string name="profile_add_nfc_text">یہ این ایف سی ٹیگ ایک نامعلوم پروفائل سے مراد ہے. موجودہ پروفائل میں اس این ایف سی ٹیگ کو منسلک کرے گا مستقبل میں پروفائل کا انتخاب کرنے کی اجازت دے گی.</string>
+  <string name="profile_app_group_item_instructions_summary">نوٹیفکیشن اوورائڈ اے پی گروپ اس پروفائل پر شامل کریں یا ہٹائیں</string>
   <!-- Profile mode options. -->
   <!-- Add Profile -->
   <!-- Rename Dialog  -->
   <!-- Reset Profiles -->
   <string name="profile_reset_title">دوبارہ ترتیب دیں</string>
+  <string name="profile_reset_message">تمام صارف تخلیق کردہ پروفائلز اور ایپ گروپوں کو حذف کریں اور انہیں ڈیفالٹ میں بحال کریں؟</string>
   <!-- Delete confimation messages -->
   <!-- Profile network mode -->
   <!-- Profile Config screen PreferenceGroup titles -->
@@ -60,9 +79,11 @@
   <!-- Title for application group setting screen -->
   <!-- Add application dialog box title -->
   <!-- Profiles - system settings -->
+  <string name="profile_lockmode_policy_disabled_summary">یہ پروفائل اختیار آلہ آلہ منتظم پالیسی کے ذریعہ غیر فعال ہے</string>
   <!-- Connection override toggles (not all are used at this time ) -->
   <!-- Sound settings screen -->
   <!-- Status bar -->
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s حیثیت کے بار کے کنارے فوری ترتیبات ھیںچیں</string>
   <!-- Status bar - icons -->
   <!-- Status bar - Clock -->
   <!-- Status bar - Battery -->
@@ -74,9 +95,19 @@
   <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
   <!-- Weather -->
+  <string name="weather_settings_no_services_prompt">کوئی موسم فراہم کرنے والی خدمات انسٹال نہیں ہے</string>
+  <string name="weather_settings_no_services_summary">موسم کی تازہ کاری حاصل کرنے کے لئے ایک موسم فراہم کنندہ انسٹال کریں</string>
+  <string name="weather_settings_activity_not_found">اس فراہم کنندہ کی ترتیبات کے مینو کو شروع کرنے میں ناکام</string>
+  <string name="status_bar_show_weather_summary">موجودہ درجہ حرارت کو بار بار پر دکھائیں</string>
   <!-- Power: Performance profiles -->
+  <string name="perf_profile_settings_summary">بجلی کی بچت کی خصوصیات اور آلہ کی کارکردگی کو ایڈجسٹ کریں</string>
+  <string name="power_save_summary">اقتدار کو بچانے کیلئے آلہ کی کارکردگی اور پس منظر کی سرگرمی کو محدود کریں</string>
+  <string name="app_perf_profiles_summary">خود کار طریقے سے ایپلی کیشنز اور استعمال کے پیٹرن کے لئے ایک مناسب کارکردگی کی پروفائل کا انتخاب کریں</string>
   <!-- Applications: Expanded desktop -->
+  <string name="expanded_desktop_settings_summary">حیثیت بار، نیوی گیشن بار، یا دونوں کو چھپا کرکے اپنے دستیاب ڈیسک ٹاپ کی جگہ کو بڑھاو</string>
+  <string name="expanded_desktop_nothing_to_show_text">سوئچ آف کو آپ کے وسیع کردہ ڈیسک ٹاپ کو فی اے پی کی بنیاد پر اپنی مرضی کے مطابق کرنے کے لئے بند کریں</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_enabled_summary">بجلی کا منسلک منسلک یا منقطع کرتے وقت آواز چلائیں</string>
   <!-- Gestures: Touchscreen gestures -->
   <!-- Gesture: Stylus gestures -->
 </resources>
