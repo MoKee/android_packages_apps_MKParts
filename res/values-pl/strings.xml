@@ -204,6 +204,7 @@
   <!-- Key backlight -->
   <string name="button_backlight_title">Podświetlenie</string>
   <string name="button_backlight_enabled">Podświetl przyciski</string>
+  <string name="button_backlight_only_when_pressed_title">Podświetlanie przycisków tylko po naciśnięciu</string>
   <string name="keyboard_backlight_enabled">Podświetl klawiaturę</string>
   <string name="button_backlight_seekbar_title">Jasność przycisków</string>
   <string name="keyboard_backlight_seekbar_title">Jasność klawiatury</string>
@@ -232,6 +233,7 @@
   <string name="power_menu_users_title">Przełączanie użytkownika</string>
   <string name="power_menu_bug_report_title">Zgłoszenie błędu</string>
   <string name="power_menu_bug_report_disabled">Raportowanie błędów jest wyłączone w opcjach programistycznych</string>
+  <string name="power_menu_lockdown_title">Blokada</string>
   <string name="volume_keys_control_ring_stream_title">Regulacja głośności dzwonka</string>
   <string name="volume_keys_control_ring_stream_summary_on">Przyciski głośności regulują głośność dzwonka</string>
   <string name="volume_keys_control_ring_stream_summary_off">Przyciski głośności regulują głośność multimediów</string>
@@ -575,6 +577,7 @@
   <string name="style_global_entry_light">Jasny</string>
   <string name="style_global_entry_dark">Ciemność</string>
   <string name="style_global_entry_time">Automatycznie (pora dnia)</string>
+  <string name="style_global_entry_app">Zarządzane przez %1$s</string>
   <string name="style_accent_title">Odcień koloru</string>
   <string name="style_accent_configuration_not_supported">Obecny odcień jest niekompatybilny z wybranym stylem. Aby kontynuować, musisz wybrać inny odcień, czy chcesz kontynuować?</string>
   <string name="style_accent_configuration_positive">Kontynuuj</string>

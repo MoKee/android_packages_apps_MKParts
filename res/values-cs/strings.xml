@@ -233,6 +233,7 @@
   <string name="power_menu_users_title">Přepnutí uživatele</string>
   <string name="power_menu_bug_report_title">Hlášení o chybě</string>
   <string name="power_menu_bug_report_disabled">Hlášení chyb je zakázáno ve vývojářském nastavení</string>
+  <string name="power_menu_lockdown_title">Uzamčení</string>
   <string name="volume_keys_control_ring_stream_title">Ovládání hlasitosti vyzvánění</string>
   <string name="volume_keys_control_ring_stream_summary_on">Tlačítka hlasitosti ovládají hlasitost vyzvánění</string>
   <string name="volume_keys_control_ring_stream_summary_off">Tlačítka hlasitosti ovládají hlasitost médií</string>
@@ -576,6 +577,7 @@
   <string name="style_global_entry_light">Světlý</string>
   <string name="style_global_entry_dark">Tmavý</string>
   <string name="style_global_entry_time">Automaticky (podle denní doby)</string>
+  <string name="style_global_entry_app">Spravováno %1$s</string>
   <string name="style_accent_title">Barva zvýraznění</string>
   <string name="style_accent_configuration_not_supported">Aktuální zvýraznění není kompatibilní s vybraným stylem. Pokud chcete pokračovat, musíte vybrat jiné zvýraznění. Chcete pokračovat?</string>
   <string name="style_accent_configuration_positive">Pokračovat</string>

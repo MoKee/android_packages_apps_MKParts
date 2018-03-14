@@ -40,7 +40,7 @@
   <string name="enabled">مفعل</string>
   <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Privacy Settings Header item -->
-  <string name="privacy_settings_title">خصوصيه</string>
+  <string name="privacy_settings_title">الخصوصية</string>
   <!-- Privacy Guard -->
   <string name="privacy_guard_switch_label">تفعيل حماية الخصوصية</string>
   <string name="privacy_guard_dlg_title">تفعيل حماية الخصوصية؟</string>
@@ -233,6 +233,7 @@
   <string name="power_menu_users_title">تبديل المستخدم</string>
   <string name="power_menu_bug_report_title">تقرير الأخطاء</string>
   <string name="power_menu_bug_report_disabled">تقرير الأخطاء معطل في إعدادات التطوير</string>
+  <string name="power_menu_lockdown_title">تأمين</string>
   <string name="volume_keys_control_ring_stream_title">التحكم في مستوى صوت نغمة الرنين</string>
   <string name="volume_keys_control_ring_stream_summary_on">مفاتيح الصوت تتحكم في صوت النغمة</string>
   <string name="volume_keys_control_ring_stream_summary_off">مفاتيح الصوت تتحكم بمستوى صوت الوسائط</string>
@@ -260,6 +261,7 @@
   <string name="profile_tabs_nfc">الاتصال بالحقل القريب</string>
   <string name="profile_triggers_header">الأحداث التي تُفعّل هذا الوضع</string>
   <string name="profile_setup_setup_triggers_title">خطوة 1: إضافة الحدث</string>
+  <string name="profile_setup_setup_triggers_title_config">: <xliff:g تعديل الحدثid="profile_name">%1$s</xliff:g></string>
   <string name="profile_setup_actions_title">الخطوة 2: إعداد الأحداث</string>
   <string name="profile_setup_actions_title_config">إعادة تهيئة الأحداث</string>
   <string name="wireless_networks_settings_title">اللاسلكي والشبكات</string>
@@ -498,9 +500,9 @@
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">توفير البطارية والأداء</string>
   <string name="perf_profile_settings_summary">ضبط مزايا توفير الطاقة وأداء الجهاز</string>
-  <string name="perf_profile_overview_summary">Current profile: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_overview_summary">الوضع الحالي: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_category_title">أداء الجهاز</string>
-  <string name="perf_profile_title">Performance profile: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
+  <string name="perf_profile_title">وضع الجهاز: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="perf_profile_fail_toast">وضع الأداء غير متوفر حاليًا</string>
   <string name="power_save_category_title">توفير البطارية</string>
   <string name="power_save_title">وضع توفير الطاقة القصوى</string>
@@ -575,8 +577,9 @@
   <string name="style_global_entry_light">فاتح</string>
   <string name="style_global_entry_dark">داكن</string>
   <string name="style_global_entry_time">تلقائي (الوقت من اليوم)</string>
+  <string name="style_global_entry_app">يديره %1$s</string>
   <string name="style_accent_title">لون اللكنة</string>
-  <string name="style_accent_configuration_not_supported">اللكنة الحالية غير متوافقة مع النمط المحدد. من أجل المضي قدما لابد من اختيارلكنة اخرى، هل تريد أن الاستمرار؟</string>
+  <string name="style_accent_configuration_not_supported">اللكنة الحالية غير متوافقة مع النمط المحدد. من أجل المضي قدما لابد من اختيار لكنة اخرى، هل تريد أن الاستمرار؟</string>
   <string name="style_accent_configuration_positive">تقدّم</string>
   <string name="style_automagic_title">Automagic</string>
   <string name="style_automagic_description">ضبط النمط ليتناسب مع خلفية الشاشة الخاصة بك</string>

@@ -233,6 +233,7 @@
   <string name="power_menu_users_title">Cambio utente</string>
   <string name="power_menu_bug_report_title">Segnalazione bug</string>
   <string name="power_menu_bug_report_disabled">La segnalazione bug è disattivata nelle opzioni sviluppatore</string>
+  <string name="power_menu_lockdown_title">Blocca giù</string>
   <string name="volume_keys_control_ring_stream_title">Controllo volume suoneria</string>
   <string name="volume_keys_control_ring_stream_summary_on">I tasti del volume controllano il volume della suoneria</string>
   <string name="volume_keys_control_ring_stream_summary_off">I tasti del volume controllano il volume dei contenuti multimediali</string>
@@ -573,6 +574,7 @@
   <string name="style_global_entry_light">Chiaro</string>
   <string name="style_global_entry_dark">Scuro</string>
   <string name="style_global_entry_time">Automatico (basato sull\'ora del giorno)</string>
+  <string name="style_global_entry_app">Gestito da %1$s</string>
   <string name="style_accent_title">Colore di rilievo</string>
   <string name="style_accent_configuration_not_supported">Il colore di rilievo attuale non è compatibile con lo stile selezionato. Per procedere, è necessario selezionare un\' altro colore di rilievo, vuoi continuare?</string>
   <string name="style_accent_configuration_positive">Procedi</string>
