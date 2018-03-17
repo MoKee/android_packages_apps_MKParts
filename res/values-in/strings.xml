@@ -233,6 +233,7 @@
   <string name="power_menu_users_title">Beralih pengguna</string>
   <string name="power_menu_bug_report_title">Lapor bug</string>
   <string name="power_menu_bug_report_disabled">Pelaporan bug dimatikan dalam opsi pengembang</string>
+  <string name="power_menu_lockdown_title">Terkunci</string>
   <string name="volume_keys_control_ring_stream_title">Kontrol volume nada dering</string>
   <string name="volume_keys_control_ring_stream_summary_on">Tombol volume mengatur volume nada dering</string>
   <string name="volume_keys_control_ring_stream_summary_off">Tombol volume mengontrol volume media</string>
@@ -576,6 +577,7 @@
   <string name="style_global_entry_light">Terang</string>
   <string name="style_global_entry_dark">Suram</string>
   <string name="style_global_entry_time">Otomatis (waktu dalam sehari)</string>
+  <string name="style_global_entry_app">Dikelola oleh %1$s</string>
   <string name="style_accent_title">Aksen warna</string>
   <string name="style_accent_configuration_not_supported">Aksen saat ini tidak kompatibel dengan gaya yang dipilih. Untuk melanjutkan aksen lain harus dipilih, apakah Anda ingin melanjutkan?</string>
   <string name="style_accent_configuration_positive">Memproses</string>

@@ -204,6 +204,7 @@
   <!-- Key backlight -->
   <string name="button_backlight_title">Падсьвечваньне</string>
   <string name="button_backlight_enabled">Падсьвечваньне кнопак</string>
+  <string name="button_backlight_only_when_pressed_title">Падсвятленне кнопак толькі пры дотыку</string>
   <string name="keyboard_backlight_enabled">Падсьвечваньне клявіятуры</string>
   <string name="button_backlight_seekbar_title">Яскравасьць кнопак</string>
   <string name="keyboard_backlight_seekbar_title">Яскравасьць клявіятуры</string>
@@ -232,6 +233,7 @@
   <string name="power_menu_users_title">Зьмяніць карыстальніка</string>
   <string name="power_menu_bug_report_title">Справаздача пра памылкі</string>
   <string name="power_menu_bug_report_disabled">Справаздача пра памылку адключаны ў наладах для распрацоўшчыка</string>
+  <string name="power_menu_lockdown_title">Блакіроўка</string>
   <string name="volume_keys_control_ring_stream_title">Рэгуляванне гучнасці рынгтона</string>
   <string name="volume_keys_control_ring_stream_summary_on">Кнопкі гучнасці рэгулююць гучнасць рынгтона</string>
   <string name="volume_keys_control_ring_stream_summary_off">Кнопкі гучнасці рэгулююць гучнасць мультымедыя</string>
@@ -575,11 +577,13 @@
   <string name="style_global_entry_light">Светлая</string>
   <string name="style_global_entry_dark">Цемра</string>
   <string name="style_global_entry_time">Аўтаматычны (час сутак)</string>
+  <string name="style_global_entry_app">Кіруецца %1$s</string>
   <string name="style_accent_title">Асноўны колер</string>
   <string name="style_accent_configuration_not_supported">Бягучае адценне несумяшчальна з абраным стылем. Каб працягнуць, вы павінны выбраць іншае адценне, вы хочаце працягнуць?</string>
   <string name="style_accent_configuration_positive">Працягнуць</string>
   <string name="style_automagic_title">Automagic</string>
   <string name="style_automagic_description">Наладзьце стыль, каб ён адпавядаў вашым шпалерам</string>
+  <string name="style_automagic_dialog_content">Прапанаваны стыль: <b>%1$s</b> с <b>%2$s</b> адценнем.\nВы хочаце ўжыць яго?</string>
   <string name="style_automagic_dialog_positive">Ужыць</string>
   <string name="style_accent_default_name">Па змаўчанні</string>
   <string name="style_permission_error">Дазвол на доступ да сховішча неабходна для аналізу вашых шпалер, калі ласка, падайце дазвол для выкарыстання гэтай функцыі</string>

@@ -19,7 +19,11 @@
   <!-- Application name -->
   <string name="mkparts_title">Ρυθμίσεις MoKee</string>
   <!-- Fingerprint shortcuts -->
+  <string name="fingerprint_shortcut_settings_title">Συντομέυσεις δακτυλικών αποτυπώματων</string>
+  <string name="fingerprint_shortcut_not_specified">Μη Καθορισμένο</string>
   <string name="fingerprint_shortcut_ok">ΟΚ</string>
   <string name="fingerprint_shortcut_edit">Επεξεργασία</string>
   <string name="fingerprint_shortcut_delete">Διαγραφή</string>
+  <string name="fingerprint_shortcut_editer">Ρύθμιση συντομευσης δακτυλικού αποτυπώματος</string>
+  <string name="fingerprint_shortcut_manage">Διαχείριση δακτυλικών αποτυπωμάτων</string>
 </resources>
