@@ -261,6 +261,7 @@
   <string name="profile_tabs_nfc">الاتصال بالحقل القريب</string>
   <string name="profile_triggers_header">الأحداث التي تُفعّل هذا الوضع</string>
   <string name="profile_setup_setup_triggers_title">خطوة 1: إضافة الحدث</string>
+  <string name="profile_setup_setup_triggers_title_config"><;div>;تعديل المشغلات:<;xliff:g id=";profile_name";>;%1$s<;/xliff:g>;<;/div></string>
   <string name="profile_setup_actions_title">الخطوة 2: إعداد الأحداث</string>
   <string name="profile_setup_actions_title_config">إعادة تهيئة الأحداث</string>
   <string name="wireless_networks_settings_title">اللاسلكي والشبكات</string>
