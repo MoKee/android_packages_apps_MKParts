@@ -26,4 +26,12 @@
         android:summary="@string/touchscreen_gestures_haptic_feedback_summary"
         android:defaultValue="true" />
 
+    <!-- Edge gestures -->
+    <PreferenceScreen
+        android:id="@+id/edge_gestures"
+        android:key="edge_gestures"
+        android:fragment="org.mokee.mkparts.gestures.EdgeGesturesSettings"
+        android:title="@string/edge_gestures_title"
+        android:summary="@string/edge_gestures_summary"
+        android:icon="@drawable/ic_edge_gestures"/>
 </PreferenceScreen>
