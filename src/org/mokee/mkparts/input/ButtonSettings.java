@@ -229,11 +229,13 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         // and don't even try unless the existing keys can be disabled
         boolean needsNavigationBar = false;
         if (hardware.isSupported(MKHardwareManager.FEATURE_KEY_DISABLE)) {
+            /* wm.needsNavigationBar();
             try {
                 IWindowManager wm = WindowManagerGlobal.getWindowManagerService();
                 needsNavigationBar = wm.needsNavigationBar();
             } catch (RemoteException e) {
             }
+            */
 
             if (needsNavigationBar) {
                 prefScreen.removePreference(mDisableNavigationKeys);
@@ -372,10 +374,12 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                         findPreference(MKSettings.System.VOLUME_ANSWER_CALL));
             }
 
+/*
             int cursorControlAction = Settings.System.getInt(resolver,
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
             mVolumeKeyCursorControl = initList(KEY_VOLUME_KEY_CURSOR_CONTROL,
                     cursorControlAction);
+*/
 
             int swapVolumeKeys = MKSettings.System.getInt(getContentResolver(),
                     MKSettings.System.SWAP_VOLUME_KEYS_ON_ROTATION, 0);
@@ -565,10 +569,12 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             handleListChange((ListPreference) preference, newValue,
                     MKSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION);
             return true;
+/*
         } else if (preference == mVolumeKeyCursorControl) {
             handleSystemListChange(mVolumeKeyCursorControl, newValue,
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL);
             return true;
+*/
         } else if (preference == mTorchLongPressPowerTimeout) {
             handleListChange(mTorchLongPressPowerTimeout, newValue,
                     MKSettings.System.TORCH_LONG_PRESS_POWER_TIMEOUT);
