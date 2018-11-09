@@ -27,7 +27,7 @@
     <string name="reset">Réinitialiser</string>
     <string name="advanced">Options avancées</string>
     <string name="settings">Préférences</string>
-    <string name="name">Nom:</string>
+    <string name="name">Nom: </string>
     <string name="back">Annuler</string>
     <string name="finish">Terminer</string>
     <string name="next">Suivant</string>
@@ -303,7 +303,7 @@
     <string name="profile_entries_off">Désactivé</string>
     <string name="profile_entries_no_override">Pas de modifications</string>
     <!-- Add Profile -->
-    <string name="profile_name_title">Nom:</string>
+    <string name="profile_name_title">Nom: </string>
     <string name="new_profile_name">&lt;Nouveau profil&gt;</string>
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Renommer</string>
@@ -351,7 +351,7 @@
     <string name="profile_new_appgroup">Nouveau groupe d\'applications</string>
     <string name="profile_delete_appgroup">Supprimer ce groupe d\'applications?</string>
     <string name="profile_appgroup_name_prompt">Entrez un nom pour le nouveau groupe d\'applications</string>
-    <string name="profile_appgroup_name_title">Nom:</string>
+    <string name="profile_appgroup_name_title">Nom: </string>
     <string name="duplicate_appgroup_name">Nom du groupe d\'applications déjà utilisé !</string>
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Choisissez une application</string>

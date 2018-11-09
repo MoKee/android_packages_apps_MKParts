@@ -27,7 +27,7 @@
     <string name="reset">Restablecer</string>
     <string name="advanced">Avanzado</string>
     <string name="settings">Ajustes</string>
-    <string name="name">Nombre</string>
+    <string name="name">Nombre </string>
     <string name="back">Atras</string>
     <string name="finish">Terminar</string>
     <string name="next">Siguiente</string>
@@ -299,7 +299,7 @@
     <string name="profile_entries_off">Desactivado</string>
     <string name="profile_entries_no_override">No anular</string>
     <!-- Add Profile -->
-    <string name="profile_name_title">Nombre</string>
+    <string name="profile_name_title">Nombre </string>
     <string name="new_profile_name">&lt;nuevo perfil&gt;</string>
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Renombrar</string>
@@ -347,7 +347,7 @@
     <string name="profile_new_appgroup">Nuevo grupo de aplicación</string>
     <string name="profile_delete_appgroup">¿Eliminar este grupo de aplicaciones?</string>
     <string name="profile_appgroup_name_prompt">Introduce un nombre para el nuevo grupo de aplicaciones</string>
-    <string name="profile_appgroup_name_title">Nombre</string>
+    <string name="profile_appgroup_name_title">Nombre </string>
     <string name="duplicate_appgroup_name">¡Nombre de grupo de aplicación duplicado!</string>
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Seleccionar aplicación</string>
@@ -510,7 +510,7 @@
     <string name="expanded_desktop_options_title">Opciones de personalización</string>
     <string name="expanded_desktop_style_title">Estilo de escritorio extendido</string>
     <string name="expanded_desktop_style_hide_nothing">No ocultar nada</string>
-    <string name="expanded_desktop_style_hide_status">Ocultar la barra de estado</string>
+    <string name="expanded_desktop_style_hide_status">Ocultar la barra de estado </string>
     <string name="expanded_desktop_style_hide_navigation">Ocultar la barra de navegación</string>
     <string name="expanded_desktop_style_hide_both">Ocultar ambos</string>
     <string name="expanded_desktop_nothing_to_show_text">Apague el interruptor para personalizar el escritorio extendido por aplicación</string>
