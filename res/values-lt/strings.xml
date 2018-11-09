@@ -22,7 +22,7 @@
     <string name="cancel">Atšaukti</string>
     <string name="add">Pridėti</string>
     <string name="reset">Nust. iš naujo</string>
-    <string name="name">Pavadinimas:</string>
+    <string name="name">Pavadinimas: </string>
     <string name="back">Atgal</string>
     <string name="next">Kitas</string>
     <string name="on">Įjungta</string>
@@ -78,7 +78,7 @@
     <string name="profile_entries_on">Įjungta</string>
     <string name="profile_entries_off">Išjungti</string>
     <!-- Add Profile -->
-    <string name="profile_name_title">Pavadinimas:</string>
+    <string name="profile_name_title">Pavadinimas: </string>
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Pervardinti</string>
     <!-- Reset Profiles -->
@@ -91,7 +91,7 @@
     <!-- Profile Settings sound modes labels -->
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <!-- Title for application group setting screen -->
-    <string name="profile_appgroup_name_title">Pavadinimas:</string>
+    <string name="profile_appgroup_name_title">Pavadinimas: </string>
     <!-- Add application dialog box title -->
     <!-- Profiles - system settings -->
     <!-- Connection override toggles (not all are used at this time ) -->

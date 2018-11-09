@@ -27,7 +27,7 @@
     <string name="reset">Zurücksetzen</string>
     <string name="advanced">Erweitert</string>
     <string name="settings">Einstellungen</string>
-    <string name="name">Name:</string>
+    <string name="name">Name: </string>
     <string name="back">Zurück</string>
     <string name="finish">Fertig stellen</string>
     <string name="next">Weiter</string>
@@ -303,7 +303,7 @@
     <string name="profile_entries_off">Aus</string>
     <string name="profile_entries_no_override">Nicht ändern</string>
     <!-- Add Profile -->
-    <string name="profile_name_title">Name:</string>
+    <string name="profile_name_title">Name: </string>
     <string name="new_profile_name">&lt;Neues Profil&gt;</string>
     <!-- Rename Dialog  -->
     <string name="rename_dialog_title">Umbenennen</string>
@@ -351,7 +351,7 @@
     <string name="profile_new_appgroup">Neue App-Gruppe</string>
     <string name="profile_delete_appgroup">Diese App-Gruppe löschen?</string>
     <string name="profile_appgroup_name_prompt">Geben Sie einen Namen für die neue App-Gruppe ein.</string>
-    <string name="profile_appgroup_name_title">Name:</string>
+    <string name="profile_appgroup_name_title">Name: </string>
     <string name="duplicate_appgroup_name">Doppelter App-Gruppenname!</string>
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">App auswählen</string>
