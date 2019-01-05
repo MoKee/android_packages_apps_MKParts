@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2014-2019 The MoKee Project
  * Copyright (C) 2017-2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -34,7 +35,6 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
 
     private DropDownPreference mNetTrafficMode;
     private MKSecureSettingSwitchPreference mNetTrafficAutohide;
-    private MKSecureSettingSwitchPreference mNetTrafficShowUnits;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -53,10 +53,6 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
                 findPreference(MKSettings.Secure.NETWORK_TRAFFIC_AUTOHIDE);
         mNetTrafficAutohide.setOnPreferenceChangeListener(this);
 
-        mNetTrafficShowUnits = (MKSecureSettingSwitchPreference)
-                findPreference(MKSettings.Secure.NETWORK_TRAFFIC_SHOW_UNITS);
-        mNetTrafficShowUnits.setOnPreferenceChangeListener(this);
-
         updateEnabledStates(mode);
     }
 
@@ -74,6 +70,5 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
     private void updateEnabledStates(int mode) {
         final boolean enabled = mode != 0;
         mNetTrafficAutohide.setEnabled(enabled);
-        mNetTrafficShowUnits.setEnabled(enabled);
     }
 }
