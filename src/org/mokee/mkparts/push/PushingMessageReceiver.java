@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2019 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,12 +25,13 @@ import android.app.Notification.BigTextStyle;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
-import android.os.Bundle;
-import android.os.UserHandle;
+import android.os.Bundle
 import android.util.Log;
 import cn.jpush.android.api.JPushInterface;
 
@@ -44,7 +45,6 @@ public class PushingMessageReceiver extends BroadcastReceiver {
 
     public static final String MKPUSH_ALIAS = "pref_alias";
     public static final String MKPUSH_TAGS = "pref_tags";
-    public static final String MKPUSH_NEWS = "pref_news";
 
     public static final int MSG_SET_ALIAS = 1001;
     public static final int MSG_SET_TAGS = 1002;
@@ -75,7 +75,7 @@ public class PushingMessageReceiver extends BroadcastReceiver {
             String type = PushingUtils.getStringFromJson("type", customJson);
             String url = PushingUtils.getStringFromJson("url", customJson);
             String title = PushingUtils.getStringFromJson("title", customJson);
-            String newVersion = PushingUtils.getStringFromJson("version", customJson);
+            String clipboard = PushingUtils.getStringFromJson("clipboard", customJson);
             int msg_id = PushingUtils.getIntFromJson("id", customJson);
             String currentDevice = Build.PRODUCT.toLowerCase();
             String currentVersion = Build.VERSION.toLowerCase();
@@ -85,21 +85,14 @@ public class PushingMessageReceiver extends BroadcastReceiver {
                     || device.equals("all") && PushingUtils.allowPush(type, currentVersion, 0)
                     || PushingUtils.allowPush(device, currentDevice, 1) && type.equals("all")) {
                 switch (msg_id) {
-                    case 0:
-                        String mod_version_code = currentVersion.split("-")[2];
-                        int new_version_code = Integer.parseInt(newVersion);
-                        if (mod_version_code.length() > 6) {
-                            mod_version_code = mod_version_code.substring(2, 8);
-                        }
-                        if (new_version_code > Integer.parseInt(mod_version_code)) {
-                            Intent intent = new Intent(ACTION_UPDATE_CHECK);
-                            ctx.sendBroadcastAsUser(intent, UserHandle.CURRENT);
-                        }
-                        break;
-                    case 1:
+                    default:
                         if (MoKeeUtils.isSupportLanguage(true)
                                 && MKSettings.System.getInt(ctx.getContentResolver(), MKSettings.System.RECEIVE_PUSH_NOTIFICATIONS, 1) == 1) {
                             promptUser(ctx, url, title, message, msg_id, R.drawable.ic_push_notify);
+                            if (!customJson.isNull(clipboard)) {
+                                ClipboardManager clipboardManager = (ClipboardManager) ctx.getSystemService(Context.CLIPBOARD_SERVICE);
+                                clipboardManager.setPrimaryClip(ClipData.newPlainText(null, clipboard));
+                            }
                         }
                         break;
                 }
