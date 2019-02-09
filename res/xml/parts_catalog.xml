@@ -132,6 +132,7 @@
 
     <part android:key="bottom_gesture_navigation_settings"
           android:title="@string/bottom_gesture_navigation_settings_title"
+          android:summary="@string/bottom_gesture_navigation_settings_summary"
           android:fragment="org.mokee.mkparts.gestures.BottomGestureNavigationSettings"
           mk:xmlRes="@xml/bottom_gesture_navigation_settings" />
 
