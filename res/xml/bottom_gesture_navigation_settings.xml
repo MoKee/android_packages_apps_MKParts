@@ -17,13 +17,32 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:key="bottom_gesture_navigation_settings"
         android:title="@string/bottom_gesture_navigation_settings_title" >
 
     <mokee.preference.MKSystemSettingSwitchPreference
             android:key="use_bottom_gesture_navigation"
-            android:title="@string/use_bottom_gesture_navigation_title"
-            android:summary="@string/use_bottom_gesture_navigation_summary"
+            android:title="@string/bottom_gesture_navigation_settings_title"
+            android:summary="@string/bottom_gesture_navigation_settings_title"
             android:defaultValue="false" />
+
+    <org.mokee.mkparts.widget.IntervalSeekBarPreference
+        android:key="bottom_gesture_navigation_swipe_length"
+        android:title="@string/bottom_gesture_navigation_swipe_length_title"
+        android:summary="@string/bottom_gesture_navigation_swipe_length_summary"
+        android:persistent="false"
+        settings:units="@string/unit_px"
+        android:dependency="use_bottom_gesture_navigation" />
+
+    <org.mokee.mkparts.widget.IntervalSeekBarPreference
+        android:key="bottom_gesture_navigation_swipe_timeout"
+        android:title="@string/bottom_gesture_navigation_action_timeout_title"
+        android:summary="@string/bottom_gesture_navigation_action_timeout_summary"
+        android:max="500"
+        android:min="100"
+        android:persistent="false"
+        settings:units="@string/unit_msec"
+        android:dependency="use_bottom_gesture_navigation" />
 
 </PreferenceScreen>

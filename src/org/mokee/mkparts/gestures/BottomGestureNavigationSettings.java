@@ -18,17 +18,62 @@
 package org.mokee.mkparts.gestures;
 
 import android.os.Bundle;
+import android.support.v7.preference.Preference;
 
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
+import org.mokee.mkparts.widget.IntervalSeekBarPreference;
 
-public class BottomGestureNavigationSettings extends SettingsPreferenceFragment {
+import mokee.providers.MKSettings;
+
+public class BottomGestureNavigationSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "BottomGestureNavigationSettings";
+
+    private static final String KEY_BOTTOM_GESTURE_NAVIGATION_SWIPE_LENGTH = "bottom_gesture_navigation_swipe_length";
+    private static final String KEY_BOTTOM_GESTURE_NAVIGATION_SWIPE_TIMEOUT = "bottom_gesture_navigation_swipe_timeout";
+
+    private IntervalSeekBarPreference mBottomGestureNavigationSwipeTriggerLength;
+    private IntervalSeekBarPreference mBottomGestureNavigationSwipeTriggerTimeout;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.bottom_gesture_navigation_settings);
+
+        mBottomGestureNavigationSwipeTriggerLength = (IntervalSeekBarPreference) findPreference(KEY_BOTTOM_GESTURE_NAVIGATION_SWIPE_LENGTH);
+        int value = MKSettings.System.getInt(getContentResolver(),
+                MKSettings.System.BOTTOM_GESTURE_NAVIGATION_SWIPE_LIMIT,
+                getSwipeLengthInPixel(getResources().getInteger(com.android.internal.R.integer.nav_gesture_swipe_min_length)));
+
+        mBottomGestureNavigationSwipeTriggerLength.setMinValue(getSwipeLengthInPixel(40));
+        mBottomGestureNavigationSwipeTriggerLength.setMaxValue(getSwipeLengthInPixel(80));
+        mBottomGestureNavigationSwipeTriggerLength.setValue(value);
+        mBottomGestureNavigationSwipeTriggerLength.setOnPreferenceChangeListener(this);
+
+        mBottomGestureNavigationSwipeTriggerTimeout = (IntervalSeekBarPreference) findPreference(KEY_BOTTOM_GESTURE_NAVIGATION_SWIPE_TIMEOUT);
+        value = MKSettings.System.getInt(getContentResolver(),
+                MKSettings.System.BOTTOM_GESTURE_NAVIGATION_TRIGGER_TIMEOUT,
+                getResources().getInteger(com.android.internal.R.integer.nav_gesture_swipe_timout));
+        mBottomGestureNavigationSwipeTriggerTimeout.setValue(value);
+        mBottomGestureNavigationSwipeTriggerTimeout.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        if (preference == mBottomGestureNavigationSwipeTriggerLength) {
+            MKSettings.System.putInt(getContentResolver(),
+                    MKSettings.System.BOTTOM_GESTURE_NAVIGATION_SWIPE_LIMIT, (Integer) objValue);
+        } else if (preference == mBottomGestureNavigationSwipeTriggerTimeout) {
+            MKSettings.System.putInt(getContentResolver(),
+                    MKSettings.System.BOTTOM_GESTURE_NAVIGATION_TRIGGER_TIMEOUT, (Integer) objValue);
+        } else {
+            return false;
+        }
+        return true;
+    }
+
+    private int getSwipeLengthInPixel(int value) {
+        return Math.round(value * getResources().getDisplayMetrics().density);
     }
 
 }
