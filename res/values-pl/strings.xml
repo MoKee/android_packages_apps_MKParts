@@ -615,6 +615,7 @@
     <string name="trust_onboarding_description">Trust pomaga utrzymać twoje urządzenie bezpiecznym oraz chronić twoją prywatność.\nIkona Trust wyświetla się by pomóc ci poprzez sprawdzanie bezpieczeństwa zawartości.</string>
     <string name="trust_onboarding_learn_more">Dowiedz się więcej</string>
     <string name="trust_onboarding_done">Rozumiem</string>
+    <string name="trust_restrict_usb_summary">Wyłącz nowe urządzenia USB gdy urządzenie jest zablokowane</string>
     <!-- Sms limit -->
     <string name="sms_security_check_limit_title">Limit wiadomości SMS</string>
     <string name="sms_security_check_limit_summary">Aplikacje mogą wysłać %s wiadomości przez 1 minutę, nim konieczne będzie potwierdzenie</string>

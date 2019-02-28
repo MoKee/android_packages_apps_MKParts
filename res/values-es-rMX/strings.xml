@@ -144,6 +144,7 @@
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Colores precisos para el espacio de color DCI-P3</string>
     <string name="live_display_reading_mode_title">Modo de lectura</string>
+    <string name="live_display_reading_mode_summary">Modo de escala de grises para lectura a largo plazo</string>
     <string name="color_calibration_title">Calibración de color</string>
     <string name="color_calibration_summary">Calibrar colores de pantalla</string>
     <string name="color_red_title">Rojo</string>
@@ -509,6 +510,7 @@
     <string name="expanded_desktop_nothing_to_show_text">Apague el interruptor para personalizar el escritorio extendido por aplicación</string>
     <!-- Applications: Long screen -->
     <string name="long_screen_settings_title">Aplicaciones en pantalla completa</string>
+    <string name="long_screen_settings_summary">Forzar aplicaciones heredadas para usar la relación de aspecto de pantalla completa</string>
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Sonidos de carga del dispositivo</string>
     <string name="charging_sounds_enabled_title">Activado</string>
@@ -584,16 +586,22 @@
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Obligatorio</string>
     <string name="trust_feature_selinux_value_disabled">Deshabilitado</string>
+    <string name="trust_feature_selinux_explain">SELinux dicta qué procesos tienen acceso a qué archivos en tu dispositivo.\nEsto impide que las aplicaciones y los servicios tengan acceso a archivos que no deben tratar: de esta forma, un proceso malicioso tiene acceso limitado, por lo que se preserva tu seguridad.</string>
     <string name="trust_feature_root">Acceso administrativo</string>
     <string name="trust_feature_root_value_disabled">Deshabilitado</string>
     <string name="trust_feature_root_value_adb">Solo ADB</string>
     <string name="trust_feature_root_value_apps">Aplicaciones y ADB</string>
+    <string name="trust_feature_root_explain">El acceso root permite eludir las restricciones de seguridad de las aplicaciones y los servicios que elijas, lo que les permite realizar modificaciones en el sistema, lo que puede causar daños a tu dispositivo o sistema operativo.</string>
     <string name="trust_feature_security_patches">Nivel de parche de seguridad de Android</string>
     <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nProveedor: %2$s</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_security_patches_value_new">última versión</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_security_patches_value_medium">algunos meses desactualizados</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
+    <string name="trust_feature_security_patches_value_old">obsoleto</string>
     <string name="trust_feature_encryption_value_enabled">Activado</string>
+    <string name="trust_feature_encryption_value_nolock">Necesita una pantalla de bloqueo segura</string>
     <string name="trust_feature_encryption_value_disabled">Deshabilitado</string>
     <string name="trust_category_tools">Privacidad</string>
     <string name="trust_onboarding_description">Trust te ayuda a mantener tu equipo seguro y protege tu privacidad. \nEl icono de Trust sólo aparece cuando el contenido de la página ha sido verificado.</string>

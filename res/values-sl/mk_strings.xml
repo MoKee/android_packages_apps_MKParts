@@ -30,4 +30,7 @@
     <string name="push_notification">Potisna obvestila</string>
     <string name="text_copied">Besedilo je kopirano v odložišče.</string>
     <!-- OP like Navigation Gestures -->
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">sl. točk</string>
+    <string name="unit_msec">ms</string>
 </resources>

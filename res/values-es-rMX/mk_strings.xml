@@ -27,6 +27,6 @@
     <string name="fingerprint_shortcut_editer">Acceso directo a Huella dactilar</string>
     <string name="fingerprint_shortcut_manage">Administrar huellas</string>
     <!-- Push interface -->
-    <string name="push_notification">Push notification</string>
+    <string name="push_notification">Notificación Push</string>
     <!-- OP like Navigation Gestures -->
 </resources>

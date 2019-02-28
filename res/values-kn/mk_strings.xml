@@ -28,5 +28,6 @@
     <string name="fingerprint_shortcut_manage">ಬೆರಳಚ್ಚುಗಳನ್ನು ನಿರ್ವ ಹಿಸು</string>
     <!-- Push interface -->
     <string name="push_notification">ಅಧಿಸೂಚನೆಯನ್ನು ಪೋಸ್ಟ್ ಮಾಡು</string>
+    <string name="text_copied">ಪಠ್ಯವನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡಿಗೆ ನಕಲಿಸಿದೆ.</string>
     <!-- OP like Navigation Gestures -->
 </resources>
