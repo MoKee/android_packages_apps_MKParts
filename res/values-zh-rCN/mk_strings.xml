@@ -32,8 +32,9 @@
     <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">全面屏手势</string>
     <string name="bottom_gesture_navigation_settings_summary">使用从屏幕底部向上滑动的手势进行导航操作</string>
-    <string name="bottom_gesture_navigation_settings_help_text">导航栏将被隐藏！\n\n支持的手势功能：\n\n返回上一步\n-从左侧或右侧向上滑动\n\n返回主页\n-从中间向上滑动\n\n最近任务列表\n-从中间向上滑动后停留\n\n长按主页键快捷功能\n-从中间向上短滑后停留</string>
-    <string name="bottom_gesture_navigation_settings_navkeys_help_text">实体按键将被禁用！\n\n支持的手势功能：\n\n返回上一步\n-从左侧或右侧向上滑动\n\n返回主页\n-从中间向上滑动\n\n最近任务列表\n-从中间向上滑动后停留\n\n长按主页键快捷功能\n-从中间向上短滑后停留</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">使用从屏幕底部向上滑动的手势替代实体按键</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">使用从屏幕底部向上滑动的手势替代导航栏</string>
+    <string name="bottom_gesture_navigation_settings_text">支持的手势功能：\n\n返回上一步\n-从左侧或右侧向上滑动\n\n返回主页\n-从中间向上滑动\n\n最近任务列表\n-从中间向上滑动后停留\n\n长按主页键快捷功能\n-从中间向上短滑后停留</string>
     <string name="bottom_gesture_navigation_swipe_length_title">滑动区域高度</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">触发手势操作所需的滑动高度</string>
     <string name="bottom_gesture_navigation_action_timeout_title">滑动响应时长</string>

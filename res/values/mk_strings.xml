@@ -34,9 +34,10 @@
 
     <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">Bottom navigation gestures</string>
-    <string name="bottom_gesture_navigation_settings_summary">Use bottom swipe up gestures for navigation</string>
-    <string name="bottom_gesture_navigation_settings_help_text">Navigation bar will be hidden!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLong press home\n- Short swipe up and hold in the center</string>
-    <string name="bottom_gesture_navigation_settings_navkeys_help_text">Hardware buttons will be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLong press home\n- Short swipe up and hold in the center</string>
+    <string name="bottom_gesture_navigation_settings_summary">Use bottom swipe up gestures for navigation.</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Use bottom swipe up gestures instead of hardware keys.</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Use bottom swipe up gestures instead of screen navigation keys.</string>
+    <string name="bottom_gesture_navigation_settings_text">Available gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLong press home\n- Short swipe up and hold in the center</string>
     <string name="bottom_gesture_navigation_swipe_length_title">Swipe trigger height</string>
     <string name="bottom_gesture_navigation_swipe_length_summary">Height from bottom to trigger swipe</string>
     <string name="bottom_gesture_navigation_action_timeout_title">Swipe trigger timeout</string>

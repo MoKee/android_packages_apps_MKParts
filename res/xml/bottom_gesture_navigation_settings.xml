@@ -24,7 +24,6 @@
     <mokee.preference.MKSystemSettingSwitchPreference
             android:key="use_bottom_gesture_navigation"
             android:title="@string/bottom_gesture_navigation_settings_title"
-            android:summary="@string/bottom_gesture_navigation_settings_summary"
             android:defaultValue="false" />
 
     <org.mokee.mkparts.widget.IntervalSeekBarPreference
@@ -48,6 +47,6 @@
     <com.android.settingslib.widget.FooterPreference
         android:key="footer_preference"
         android:selectable="false"
-        android:title="@string/bottom_gesture_navigation_settings_help_text" />
+        android:title="@string/bottom_gesture_navigation_settings_text" />
 
 </PreferenceScreen>
