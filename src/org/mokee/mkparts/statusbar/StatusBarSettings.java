@@ -19,13 +19,13 @@ package org.mokee.mkparts.statusbar;
 
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.PreferenceScreen;
-import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.text.format.DateFormat;
 import android.text.TextUtils;
 import android.view.View;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 
 import mokee.preference.MKSystemSettingListPreference;
 
@@ -33,7 +33,7 @@ import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
 
 public class StatusBarSettings extends SettingsPreferenceFragment
-        implements OnPreferenceChangeListener {
+        implements Preference.OnPreferenceChangeListener {
 
     private static final String CATEGORY_BATTERY = "status_bar_battery_key";
     private static final String CATEGORY_CLOCK = "status_bar_clock_key";

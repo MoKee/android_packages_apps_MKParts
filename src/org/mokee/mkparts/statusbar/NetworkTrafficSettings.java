@@ -19,8 +19,8 @@ package org.mokee.mkparts.statusbar;
 
 import android.content.ContentResolver;
 import android.os.Bundle;
-import android.support.v7.preference.DropDownPreference;
-import android.support.v7.preference.Preference;
+import androidx.preference.DropDownPreference;
+import androidx.preference.Preference;
 
 import mokee.preference.MKSecureSettingSwitchPreference;
 import mokee.providers.MKSettings;

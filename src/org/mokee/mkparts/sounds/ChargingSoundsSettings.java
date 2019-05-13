@@ -27,7 +27,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.provider.Settings;
-import android.support.v7.preference.Preference;
+
+import androidx.preference.Preference;
 
 import mokee.providers.MKSettings;
 

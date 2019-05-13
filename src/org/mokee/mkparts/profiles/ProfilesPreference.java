@@ -19,11 +19,12 @@ package org.mokee.mkparts.profiles;
 
 import android.content.ActivityNotFoundException;
 import android.os.Bundle;
-import android.support.v7.preference.CheckBoxPreference;
-import android.support.v7.preference.PreferenceViewHolder;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.preference.CheckBoxPreference;
+import androidx.preference.PreferenceViewHolder;
 
 import org.mokee.mkparts.PartsActivity;
 import org.mokee.mkparts.R;
