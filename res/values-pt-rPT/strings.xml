@@ -399,8 +399,8 @@
     <string name="network_traffic_mode_title">Modo de visualização</string>
     <string name="network_traffic_mode_disable">Desativado</string>
     <string name="network_traffic_mode_up">Apenas envio</string>
-    <string name="network_traffic_mode_down">Apenas receção</string>
-    <string name="network_traffic_mode_all">Envio e receção</string>
+    <string name="network_traffic_mode_down">Transferir apenas</string>
+    <string name="network_traffic_mode_all">Envio e transferência</string>
     <string name="network_traffic_autohide">Ocultar automaticamente</string>
     <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego quando não houver atividade</string>
     <string name="protected_apps_manager_title">Aplicações protegidas</string>
@@ -551,4 +551,13 @@
     <string name="trust_feature_encryption_value_enabled">Ativado</string>
     <string name="trust_feature_encryption_value_disabled">Desativado</string>
     <string name="trust_category_tools">Privacidade</string>
+    <string name="trust_notification_alerts_title">Alertas de segurança</string>
+    <string name="trust_warnings_selinux">Estado de SELinux</string>
+    <string name="trust_warnings_keys">Assinatura da compilação</string>
+    <string name="trust_onboarding_title">Diga olá ao Trust</string>
+    <string name="trust_onboarding_description">O Trust ajuda-o a manter o seu dispositivo seguro e protege a sua privacidade.\nO ícone do Trust só irá aparecer quando os conteúdos da página tiverem sido verificados.</string>
+    <string name="trust_onboarding_learn_more">Saber mais</string>
+    <string name="trust_onboarding_done">Percebi</string>
+    <string name="sms_security_check_limit_title">Limite de mensagens SMS</string>
+    <string name="sms_security_check_limit_always_confirm">Confirmar sempre</string>
 </resources>
