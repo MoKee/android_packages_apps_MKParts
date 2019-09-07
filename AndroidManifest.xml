@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright 2016, The MoKee Open Source Project
- * Copyright 2017-2018, The LineageOS Project
+ * Copyright 2016-2019, The MoKee Open Source Project
+ * Copyright 2017-2019, The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -134,14 +134,17 @@
             android:name=".livedisplay.LiveDisplaySettings"
             android:label="@*mokee.platform:string/live_display_title"
             android:targetActivity="PartsActivity">
-            <intent-filter android:priority="-2">
-                <action android:name="org.mokee.mkparts.action.SETTINGS" />
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
                 <action android:name="org.mokee.mkparts.LIVEDISPLAY_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.display" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="2" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/live_display_summary" />
@@ -153,8 +156,8 @@
             android:label="@string/button_pref_title"
             android:icon="@drawable/ic_settings_buttons"
             android:targetActivity="PartsActivity">
-            <intent-filter android:priority="256">
-                <action android:name="org.mokee.mkparts.action.SETTINGS" />
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
                 <action android:name="org.mokee.mkparts.BUTTON_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -162,8 +165,11 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.system" />
             <meta-data
+                android:name="com.android.settings.order"
+                android:value="-256" />
+            <meta-data
                 android:name="com.android.settings.summary"
-                android:value="@string/summary_empty" />
+                android:resource="@string/summary_empty" />
         </activity-alias>
 
         <activity android:name=".gestures.KeyHandler" />
@@ -174,14 +180,17 @@
             android:label="@string/profiles_settings_title"
             android:icon="@drawable/ic_settings_profiles"
             android:targetActivity="PartsActivity">
-            <intent-filter android:priority="255">
-                <action android:name="org.mokee.mkparts.action.SETTINGS" />
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
                 <action android:name="org.mokee.mkparts.PROFILES_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.system" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-255" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/summary_empty" />
@@ -193,14 +202,17 @@
             android:label="@string/status_bar_title"
             android:icon="@drawable/ic_settings_statusbar"
             android:targetActivity="PartsActivity">
-            <intent-filter android:priority="254">
-                <action android:name="org.mokee.mkparts.action.SETTINGS" />
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
                 <action android:name="org.mokee.mkparts.STATUS_BAR_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.system" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-254" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/summary_empty" />
@@ -211,8 +223,8 @@
             android:name=".style.StylePreferences"
             android:label="@string/style_title"
             android:targetActivity="PartsActivity">
-            <intent-filter android:priority="-3">
-                <action android:name="org.mokee.mkparts.action.SETTINGS" />
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
                 <action android:name="org.mokee.mkparts.STYLE_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -220,20 +232,32 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.display" />
             <meta-data
+                android:name="com.android.settings.order"
+                android:value="3" />
+            <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/style_summary" />
         </activity-alias>
 
-        <!-- Trust interface (Security category) -->
+        <!-- Trust interface (Privacy category) -->
         <activity-alias
             android:name=".trust.TrustPreferences"
             android:label="@string/trust_title"
             android:targetActivity="PartsActivity">
-            <intent-filter android:priority="-4">
-                <action android:name="org.mokee.mkparts.action.SETTINGS" />
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
                 <action android:name="org.mokee.mkparts.TRUST_INTERFACE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.privacy" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="0" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/summary_empty" />
         </activity-alias>
 
         <!-- Expanded Desktop settings (Display category) -->
@@ -241,14 +265,17 @@
             android:name=".applications.ExpandedDesktopSettings"
             android:label="@string/expanded_desktop_settings_title"
             android:targetActivity="PartsActivity">
-            <intent-filter android:priority="-9">
-                <action android:name="org.mokee.mkparts.action.SETTINGS" />
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
                 <action android:name="org.mokee.mkparts.EXPANDED_DESKTOP_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.display" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="13" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/expanded_desktop_settings_summary" />
@@ -259,14 +286,17 @@
             android:name=".fingerprint.FingerprintShortcutSettings"
             android:label="@string/fingerprint_shortcut_settings_title"
             android:targetActivity="PartsActivity">
-            <intent-filter android:priority="150">
-                <action android:name="org.mokee.mkparts.action.SETTINGS" />
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
                 <action android:name="org.mokee.mkparts.FINGERPRINT_SHORTCUT_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.apps" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-150" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/summary_empty" />
