@@ -2,7 +2,7 @@
 <!--
      Copyright (C) 2016 The CyanogenMod Project
      Copyright (C) 2016-2019 The MoKee Open Source Project
-                   2017 The LineageOS Project
+                   2017-2019 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -42,7 +42,8 @@
 
     <part android:key="contributors"
           android:title="@string/contributors_cloud_fragment_title"
-          android:fragment="org.mokee.mkparts.contributors.ContributorsCloudFragment" />
+          android:fragment="org.mokee.mkparts.contributors.ContributorsCloudFragment"
+          mk:xmlRes="@xml/contributors_cloud" />
 
     <part android:key="livedisplay"
           android:title="@*mokee.platform:string/live_display_title"
