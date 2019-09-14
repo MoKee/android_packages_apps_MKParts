@@ -20,14 +20,15 @@ package org.mokee.mkparts.widget;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.TypedValue;
-import android.support.v4.content.res.TypedArrayUtils;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
+
+import androidx.core.content.res.TypedArrayUtils;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceViewHolder;
 
 import com.android.settingslib.RestrictedPreference;
 

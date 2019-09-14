@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2019 The MoKee Project
+ * Copyright (C) 2014-2019 The MoKee Open Source Project
  * Copyright (C) 2017-2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
