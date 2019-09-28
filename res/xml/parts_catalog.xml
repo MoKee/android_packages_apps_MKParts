@@ -24,105 +24,105 @@
      a fragment, which is a SettingsPreferenceFragment subclass inside MKParts.
 
      Metadata for the search index provider should be provided for all parts. This
-     can be supplied an XML resource in the "mk:xmlRes" attribute or by implementing
+     can be supplied an XML resource in the "mokee:xmlRes" attribute or by implementing
      the Searchable interface.
 -->
 <parts-catalog xmlns:android="http://schemas.android.com/apk/res/android"
-               xmlns:mk="http://schemas.android.com/apk/res/mokee.platform">
+               xmlns:mokee="http://schemas.android.com/apk/res/mokee.platform">
 
     <part android:key="battery_lights"
           android:title="@string/battery_light_title"
           android:fragment="org.mokee.mkparts.notificationlight.BatteryLightSettings"
-          mk:xmlRes="@xml/battery_light_settings" />
+          mokee:xmlRes="@xml/battery_light_settings" />
 
     <part android:key="button_settings"
           android:title="@string/button_pref_title"
           android:fragment="org.mokee.mkparts.input.ButtonSettings"
-          mk:xmlRes="@xml/button_settings" />
+          mokee:xmlRes="@xml/button_settings" />
 
     <part android:key="contributors"
           android:title="@string/contributors_cloud_fragment_title"
           android:fragment="org.mokee.mkparts.contributors.ContributorsCloudFragment"
-          mk:xmlRes="@xml/contributors_cloud" />
+          mokee:xmlRes="@xml/contributors_cloud" />
 
     <part android:key="livedisplay"
           android:title="@*mokee.platform:string/live_display_title"
           android:summary="@string/live_display_summary"
           android:fragment="org.mokee.mkparts.livedisplay.LiveDisplaySettings"
-          mk:xmlRes="@xml/livedisplay" />
+          mokee:xmlRes="@xml/livedisplay" />
 
     <part android:key="notification_lights"
           android:title="@string/notification_light_title"
           android:fragment="org.mokee.mkparts.notificationlight.NotificationLightSettings"
-          mk:xmlRes="@xml/notification_light_settings" />
+          mokee:xmlRes="@xml/notification_light_settings" />
 
     <part android:key="profiles_settings"
           android:title="@string/profiles_settings_title"
           android:fragment="org.mokee.mkparts.profiles.ProfilesSettings"
-          mk:xmlRes="@xml/profiles_settings" />
+          mokee:xmlRes="@xml/profiles_settings" />
 
     <part android:key="rotation"
           android:title="@string/display_rotation_title"
           android:fragment="org.mokee.mkparts.hardware.DisplayRotation"
-          mk:xmlRes="@xml/display_rotation" />
+          mokee:xmlRes="@xml/display_rotation" />
 
     <part android:key="status_bar_settings"
           android:title="@string/status_bar_title"
           android:fragment="org.mokee.mkparts.statusbar.StatusBarSettings"
-          mk:xmlRes="@xml/status_bar_settings" />
+          mokee:xmlRes="@xml/status_bar_settings" />
 
     <part android:key="power_menu"
           android:title="@string/power_menu_title"
           android:fragment="org.mokee.mkparts.input.PowerMenuActions"
-          mk:xmlRes="@xml/power_menu_settings" />
+          mokee:xmlRes="@xml/power_menu_settings" />
 
     <part android:key="privacy_guard_manager"
           android:title="@*mokee.platform:string/privacy_guard_manager_title"
           android:fragment="org.mokee.mkparts.privacyguard.PrivacyGuardManager"
-          mk:xmlRes="@xml/privacy_guard_prefs" />
+          mokee:xmlRes="@xml/privacy_guard_prefs" />
 
     <part android:key="weather_settings"
           android:title="@string/weather_settings_title"
           android:fragment="org.mokee.mkparts.weather.WeatherServiceSettings"
-          mk:xmlRes="@xml/weather_settings" />
+          mokee:xmlRes="@xml/weather_settings" />
 
     <part android:key="perf_profile_settings"
           android:title="@string/perf_profile_settings_title"
           android:summary="@string/perf_profile_settings_summary"
           android:fragment="org.mokee.mkparts.power.PerfProfileSettings"
-          mk:xmlRes="@xml/perf_profile_settings" />
+          mokee:xmlRes="@xml/perf_profile_settings" />
 
     <part android:key="expanded_desktop_settings"
           android:title="@string/expanded_desktop_settings_title"
           android:summary="@string/expanded_desktop_settings_summary"
           android:fragment="org.mokee.mkparts.applications.ExpandedDesktopSettings"
-          mk:xmlRes="@xml/expanded_desktop_prefs" />
+          mokee:xmlRes="@xml/expanded_desktop_prefs" />
 
     <part android:key="long_screen_settings"
           android:title="@string/long_screen_settings_title"
           android:summary="@string/long_screen_settings_summary"
           android:fragment="org.mokee.mkparts.applications.LongScreenSettings"
-          mk:xmlRes="@xml/long_screen_prefs" />
+          mokee:xmlRes="@xml/long_screen_prefs" />
 
     <part android:key="charging_sounds_settings"
           android:title="@string/charging_sounds_settings_title"
           android:fragment="org.mokee.mkparts.sounds.ChargingSoundsSettings"
-          mk:xmlRes="@xml/charging_sounds_settings" />
+          mokee:xmlRes="@xml/charging_sounds_settings" />
 
     <part android:key="touchscreen_gesture_settings"
           android:title="@string/touchscreen_gesture_settings_title"
           android:summary="@string/touchscreen_gesture_settings_summary"
           android:fragment="org.mokee.mkparts.gestures.TouchscreenGestureSettings"
-          mk:xmlRes="@xml/touchscreen_gesture_settings" />
+          mokee:xmlRes="@xml/touchscreen_gesture_settings" />
 
     <part android:key="style"
           android:title="@string/style_title"
           android:summary="@string/style_summary"
           android:fragment="org.mokee.mkparts.style.StylePreferences"
-          mk:xmlRes="@xml/style_preferences" />
+          mokee:xmlRes="@xml/style_preferences" />
 
     <part android:key="trust_interface"
           android:title="@string/trust_title"
           android:fragment="org.mokee.mkparts.trust.TrustPreferences"
-          mk:xmlRes="@xml/trust_preferences" />
+          mokee:xmlRes="@xml/trust_preferences" />
 </parts-catalog>

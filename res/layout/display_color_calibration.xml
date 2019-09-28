@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-		    xmlns:mk="http://schemas.android.com/apk/res/org.mokee.mkparts"
+		    xmlns:mokee="http://schemas.android.com/apk/res/org.mokee.mkparts"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -44,10 +44,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/color_red_text"
                 android:paddingTop="2dip"
-                mk:minValue="0.20"
-                mk:maxValue="1.00"
-                mk:defaultValue="1.00"
-                mk:digits="4" />
+                mokee:minValue="0.20"
+                mokee:maxValue="1.00"
+                mokee:defaultValue="1.00"
+                mokee:digits="4" />
 
         <TextView android:id="@+id/color_green_text"
                 android:layout_width="wrap_content"
@@ -67,10 +67,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/color_green_text"
                 android:paddingTop="2dip"
-                mk:minValue="0.20"
-                mk:maxValue="1.00"
-                mk:defaultValue="1.00"
-                mk:digits="4" />
+                mokee:minValue="0.20"
+                mokee:maxValue="1.00"
+                mokee:defaultValue="1.00"
+                mokee:digits="4" />
 
         <TextView android:id="@+id/color_blue_text"
                 android:layout_width="match_parent"
@@ -90,10 +90,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/color_blue_text"
                 android:paddingTop="2dip"
-                mk:minValue="0.20"
-                mk:maxValue="1.00"
-                mk:defaultValue="1.00"
-                mk:digits="4" />
+                mokee:minValue="0.20"
+                mokee:maxValue="1.00"
+                mokee:defaultValue="1.00"
+                mokee:digits="4" />
 
         <ImageView android:id="@+id/black_scale_picture_color"
                 android:src="@drawable/color_tuning_preview"

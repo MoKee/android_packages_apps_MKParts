@@ -17,7 +17,7 @@
 
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:mk="http://schemas.android.com/apk/res/mokee.platform"
+        xmlns:mokee="http://schemas.android.com/apk/res/mokee.platform"
         android:key="rotation"
         android:title="@string/display_rotation_title">
 
@@ -30,7 +30,7 @@
         android:title="@string/display_lockscreen_rotation_title"
         android:dependency="accelerometer"
         android:defaultValue="false"
-        mk:requiresConfig="@*android:bool/config_enableLockScreenRotation" />
+        mokee:requiresConfig="@*android:bool/config_enableLockScreenRotation" />
 
     <PreferenceCategory
         android:key="display_rotation_category"

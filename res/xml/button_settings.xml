@@ -15,7 +15,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:mk="http://schemas.android.com/apk/res/mokee.platform"
+        xmlns:mokee="http://schemas.android.com/apk/res/mokee.platform"
         android:key="button_settings"
         android:title="@string/button_pref_title">
 
@@ -93,7 +93,7 @@
             android:title="@string/torch_long_press_power_gesture_title"
             android:summary="@string/torch_long_press_power_gesture_desc"
             android:defaultValue="false"
-            mk:requiresConfig="@*android:bool/config_supportLongPressPowerWhenNonInteractive" />
+            mokee:requiresConfig="@*android:bool/config_supportLongPressPowerWhenNonInteractive" />
 
         <ListPreference
             android:key="torch_long_press_power_timeout"
@@ -301,7 +301,7 @@
         <mokee.preference.RemotePreference
             android:key="additional_buttons"
             android:title="@string/additional_buttons_title"
-            mk:requiresAction="org.mokee.settings.device.ADDITIONAL_BUTTONS_SETTINGS">
+            mokee:requiresAction="org.mokee.settings.device.ADDITIONAL_BUTTONS_SETTINGS">
             <intent
                 android:action="org.mokee.settings.device.ADDITIONAL_BUTTONS_SETTINGS" />
         </mokee.preference.RemotePreference>

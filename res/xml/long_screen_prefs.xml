@@ -16,7 +16,7 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:mk="http://schemas.android.com/apk/res/org.mokee.mkparts"
+    xmlns:mokee="http://schemas.android.com/apk/res/org.mokee.mkparts"
     android:key="long_screen_settings"
     android:title="@string/long_screen_settings_title">
 
