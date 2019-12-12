@@ -14,13 +14,6 @@
 -keep class org.mokee.mkparts.profiles.*
 -keep class org.mokee.mkparts.sounds.*
 
--dontwarn cn.jpush.**
--keep class cn.jpush.** { *;}
--keep class * extends cn.jpush.android.helpers.JPushMessageReceiver { *; }
-
--dontwarn cn.jiguang.**
--keep class cn.jiguang.** { *;}
-
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
   *** onClick*(...);

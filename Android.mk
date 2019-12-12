@@ -16,7 +16,6 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     jsr305 \
-    mokee-push \
     org.mokee.platform.internal
 
 LOCAL_RESOURCE_DIR := \

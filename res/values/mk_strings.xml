@@ -28,10 +28,6 @@
     <string name="fingerprint_shortcut_editer">Set fingerprint shortcut</string>
     <string name="fingerprint_shortcut_manage">Manage fingerprints</string>
 
-    <!-- Push interface -->
-    <string name="push_notification">Push notification</string>
-    <string name="text_copied">Text copied to clipboard.</string>
-
     <!-- OP like Navigation Gestures -->
     <string name="bottom_gesture_navigation_settings_title">Bottom navigation gestures</string>
     <string name="bottom_gesture_navigation_settings_summary">Use bottom swipe up gestures for navigation</string>
