@@ -259,6 +259,7 @@
             android:excludeFromRecents="true"/>
 
         <!-- AirPods settings -->
+        <service android:name = ".bluetooth.AirPodsPairingService" />
         <service android:name = ".bluetooth.AirPodsBatteryService" />
 
         <receiver android:name=".bluetooth.AirPodsBatteryInitializer">
