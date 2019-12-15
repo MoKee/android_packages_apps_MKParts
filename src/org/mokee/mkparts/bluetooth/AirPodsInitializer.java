@@ -16,22 +16,49 @@
 
 package org.mokee.mkparts.bluetooth;
 
+import android.bluetooth.BluetoothA2dp;
+import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothProfile;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-public class AirPodsInitializer {
+public class AirPodsInitializer extends BroadcastReceiver {
 
-    static void startBatteryService(Context context, BluetoothDevice device) {
-        if (AirPodsConstants.shouldBeAirPods(device)) {
-            final Intent intent = new Intent(context, AirPodsBatteryService.class);
-            intent.putExtra(BluetoothDevice.EXTRA_DEVICE, device);
-            context.startService(intent);
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        final String action = intent.getAction();
+        if (BluetoothAdapter.ACTION_STATE_CHANGED.equals(action)) {
+            final int state = intent.getIntExtra(BluetoothAdapter.EXTRA_STATE, 0);
+            handleAdapterStateChanged(context, state);
+        } else if (BluetoothA2dp.ACTION_CONNECTION_STATE_CHANGED.equals(action)) {
+            final int state = intent.getIntExtra(BluetoothProfile.EXTRA_STATE, -1);
+            final BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
+            handleA2dpStateChanged(context, state, device);
         }
     }
 
-    static void stopBatteryService(Context context, BluetoothDevice device) {
-        context.stopService(new Intent(context, AirPodsBatteryService.class));
+    private void handleAdapterStateChanged(Context context, int state) {
+        if (state == BluetoothAdapter.STATE_ON) {
+            context.startService(new Intent(context, AirPodsPairingService.class));
+        } else if (state == BluetoothAdapter.STATE_TURNING_OFF ||
+                state == BluetoothAdapter.STATE_OFF) {
+            context.stopService(new Intent(context, AirPodsPairingService.class));
+        }
+    }
+
+    private void handleA2dpStateChanged(Context context, int state, BluetoothDevice device) {
+        if (state == BluetoothProfile.STATE_CONNECTED) {
+            if (AirPodsConstants.shouldBeAirPods(device)) {
+                final Intent intent = new Intent(context, AirPodsBatteryService.class);
+                intent.putExtra(BluetoothDevice.EXTRA_DEVICE, device);
+                context.startService(intent);
+            }
+        } else if (state == BluetoothProfile.STATE_DISCONNECTING ||
+                state == BluetoothProfile.STATE_DISCONNECTED) {
+            context.stopService(new Intent(context, AirPodsBatteryService.class));
+        }
     }
 
 }

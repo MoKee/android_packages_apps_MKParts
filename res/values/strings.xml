@@ -671,4 +671,9 @@
     <string name="sms_security_check_limit_summary">Apps can send %s messages in 1 minute before requiring confirmation</string>
     <string name="sms_security_check_limit_summary_none">Apps are not allowed to send any messages without confirmation</string>
     <string name="sms_security_check_limit_always_confirm">Always confirm</string>
+
+    <!-- Bluetooth -->
+    <string name="bluetooth_channel_pairing">Pairing</string>
+    <string name="bluetooth_found_message">Connect this headset?</string>
+    <string name="bluetooth_found_confirm">Tap to connect</string>
 </resources>
