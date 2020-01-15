@@ -56,6 +56,14 @@
                 android:defaultValue="false"
                 android:persistent="false" />
 
+        <!-- Flicker-free -->
+        <mokee.preference.MKSystemSettingSwitchPreference
+                android:key="display_flicker_free"
+                android:title="@string/live_display_flicker_free_title"
+                android:summary="@string/live_display_flicker_free_summary"
+                android:defaultValue="false"
+                android:persistent="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
