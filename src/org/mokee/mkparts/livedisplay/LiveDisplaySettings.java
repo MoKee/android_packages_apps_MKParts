@@ -56,6 +56,7 @@ import static mokee.hardware.LiveDisplayManager.FEATURE_COLOR_ENHANCEMENT;
 import static mokee.hardware.LiveDisplayManager.FEATURE_DISPLAY_MODES;
 import static mokee.hardware.LiveDisplayManager.FEATURE_PICTURE_ADJUSTMENT;
 import static mokee.hardware.LiveDisplayManager.FEATURE_READING_ENHANCEMENT;
+import static mokee.hardware.LiveDisplayManager.FEATURE_FLICKER_FREE;
 import static mokee.hardware.LiveDisplayManager.MODE_AUTO;
 import static mokee.hardware.LiveDisplayManager.MODE_DAY;
 import static mokee.hardware.LiveDisplayManager.MODE_NIGHT;
@@ -83,6 +84,8 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
 
     private static final String KEY_LIVE_DISPLAY_COLOR_PROFILE = "live_display_color_profile";
 
+    private static final String KEY_LIVE_DISPLAY_FLICKER_FREE = "display_flicker_free";
+
     private static final String COLOR_PROFILE_TITLE =
             KEY_LIVE_DISPLAY_COLOR_PROFILE + "_%s_title";
 
@@ -102,6 +105,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
     private SwitchPreference mLowPower;
     private SwitchPreference mOutdoorMode;
     private SwitchPreference mReadingMode;
+    private SwitchPreference mFlickerFree;
 
     private PictureAdjustment mPictureAdjustment;
     private DisplayTemperature mDisplayTemperature;
@@ -253,6 +257,15 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
             advancedPrefs.removePreference(mDisplayColor);
             mDisplayColor = null;
         }
+
+        mFlickerFree = (SwitchPreference) findPreference(KEY_LIVE_DISPLAY_FLICKER_FREE);
+        if (liveDisplayPrefs != null && mFlickerFree != null
+                && !mHardware.isSupported(MKHardwareManager.FEATURE_FLICKER_FREE)) {
+            liveDisplayPrefs.removePreference(mFlickerFree);
+            mFlickerFree = null;
+        } else {
+            mFlickerFree.setOnPreferenceChangeListener(this);
+        }
     }
 
     @Override
@@ -262,6 +275,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
         updateTemperatureSummary();
         updateColorProfileSummary(null);
         updateReadingModeStatus();
+        updateFlickerFreeStatus();
         SettingsHelper.get(getActivity()).startWatching(this, DISPLAY_TEMPERATURE_DAY_URI,
                 DISPLAY_TEMPERATURE_MODE_URI, DISPLAY_TEMPERATURE_NIGHT_URI);
     }
@@ -370,6 +384,13 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
         }
     }
 
+    private void updateFlickerFreeStatus() {
+        if (mFlickerFree != null) {
+            mFlickerFree.setChecked(
+                    mHardware.get(MKHardwareManager.FEATURE_FLICKER_FREE));
+        }
+    }
+
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mLiveDisplay) {
@@ -386,6 +407,8 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
             }
         } else if (preference == mReadingMode) {
             mHardware.set(MKHardwareManager.FEATURE_READING_ENHANCEMENT, (Boolean) objValue);
+        } else if (preference == mFlickerFree) {
+            mHardware.set(MKHardwareManager.FEATURE_FLICKER_FREE, (Boolean) objValue);
         }
         return true;
     }
@@ -395,6 +418,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
         updateModeSummary();
         updateTemperatureSummary();
         updateReadingModeStatus();
+        updateFlickerFreeStatus();
     }
 
 
@@ -426,6 +450,9 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
             }
             if (!config.hasFeature(FEATURE_READING_ENHANCEMENT)) {
                 result.add(KEY_LIVE_DISPLAY_READING_ENHANCEMENT);
+            }
+            if (!config.hasFeature(FEATURE_FLICKER_FREE)) {
+                result.add(KEY_LIVE_DISPLAY_FLICKER_FREE);
             }
             if (ColorDisplayManager.isNightDisplayAvailable(context)) {
                 if (!config.hasFeature(MODE_OUTDOOR)) {
